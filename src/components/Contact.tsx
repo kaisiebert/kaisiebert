@@ -12,7 +12,7 @@ const Contact = () => {
           Kontakt
         </h2>
 
-        <p className="text-text-body font-light mb-12 max-w-md mx-auto">
+        <p className="text-text-body font-light mb-12 max-w-md mx-auto text-justify-clean">
           Wenn etwas in Ihnen nach Klärung ruft, lade ich Sie ein, sich zu
           melden.
         </p>

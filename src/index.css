@@ -126,6 +126,14 @@
     @apply text-[hsl(var(--text-body))];
   }
   
+  .text-justify-clean {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+  }
+  
   .section-spacing {
     @apply py-24 md:py-32 lg:py-40;
   }

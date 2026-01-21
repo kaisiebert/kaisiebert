@@ -22,7 +22,7 @@ const About = () => {
               Über mich
             </h2>
 
-            <div className="space-y-6 text-text-body font-light leading-relaxed">
+            <div className="space-y-6 text-text-body font-light leading-relaxed text-justify-clean">
               <p>
                 Seit über 14 Jahren begleite ich Menschen in Prozessen der
                 Selbstwahrnehmung und persönlichen Entwicklung.
