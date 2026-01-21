@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ensoLogo from "@/assets/enso-logo.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,9 +30,10 @@ const Header = () => {
       <nav className="container-wide py-5 flex items-center justify-between">
         <button
           onClick={() => scrollToSection("hero")}
-          className="font-serif text-xl tracking-wide text-foreground hover:text-primary transition-colors"
+          className="flex items-center gap-3 hover:opacity-80 transition-opacity"
         >
-          Kai Siebert
+          <img src={ensoLogo} alt="Kai Siebert Logo" className="h-10 w-10 object-contain" />
+          <span className="font-serif text-xl tracking-wide text-foreground">Kai Siebert</span>
         </button>
 
         <div className="hidden md:flex items-center gap-10">

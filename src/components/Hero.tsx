@@ -1,4 +1,4 @@
-import Enso from "./Enso";
+import ensoLogo from "@/assets/enso-logo.png";
 
 const Hero = () => {
   return (
@@ -9,17 +9,17 @@ const Hero = () => {
       {/* Subtle background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
 
-      {/* Floating Enso */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.08]">
-        <Enso size={600} className="text-primary animate-float" />
+      {/* Floating Enso background */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]">
+        <img src={ensoLogo} alt="" className="w-[600px] h-[600px] object-contain animate-float" />
       </div>
 
       <div className="container-narrow relative z-10 text-center">
         <div className="flex justify-center mb-12">
-          <Enso
-            size={120}
-            className="text-primary opacity-70"
-            animated={true}
+          <img 
+            src={ensoLogo} 
+            alt="Enso Logo" 
+            className="w-28 h-28 md:w-36 md:h-36 object-contain opacity-90 animate-fade-in-up"
           />
         </div>
 
