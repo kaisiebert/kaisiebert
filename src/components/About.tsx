@@ -1,12 +1,19 @@
+import kaiSiebert from "@/assets/kai-siebert.jpg";
+
 const About = () => {
   return (
     <section id="ueber" className="section-spacing bg-card/50">
       <div className="container-narrow">
         <div className="grid md:grid-cols-5 gap-12 md:gap-16 items-start">
-          {/* Decorative element */}
-          <div className="hidden md:flex md:col-span-2 justify-center pt-4">
-            <div className="w-32 h-32 rounded-full border border-primary/20 flex items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary to-accent" />
+          {/* Portrait */}
+          <div className="flex md:col-span-2 justify-center">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-full blur-2xl opacity-50" />
+              <img 
+                src={kaiSiebert} 
+                alt="Kai Siebert" 
+                className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-top border-2 border-primary/10 shadow-lg"
+              />
             </div>
           </div>
 
