@@ -45,7 +45,7 @@ const Themes = () => {
               <h3 className="font-serif text-xl text-foreground mb-3">
                 {theme.title}
               </h3>
-              <p className="text-text-body font-light text-sm leading-relaxed">
+              <p className="text-text-body font-light text-sm leading-relaxed text-justify-clean">
                 {theme.description}
               </p>
             </div>
