@@ -18,36 +18,37 @@ const About = () => {
           </div>
 
           <div className="md:col-span-3">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-8">
-              Über mich
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
+              Lernen wir uns kennen?
             </h2>
 
-            <div className="space-y-6 text-text-body font-light leading-relaxed text-justify-clean">
+            <div className="space-y-5 text-text-body font-light leading-relaxed text-justify-clean">
               <p>
-                Seit über 14 Jahren begleite ich Menschen in Prozessen der
-                Selbstwahrnehmung und persönlichen Entwicklung.
+                Mein Name ist Kai Siebert, geboren 1969 in Hamburg.
               </p>
 
               <p>
-                Meine Arbeit gründet auf psychologischem Fachwissen, gelebter
-                Erfahrung und einer tiefen Achtung vor dem, was jeder Mensch
-                bereits in sich trägt.
+                Ich arbeite als Psychologe mit Menschen aus den unterschiedlichsten Kontexten. In der wissenschaftlichen Forschung widme ich mich der ICH-Struktur und dem Bewusstsein.
               </p>
 
               <p>
-                Ich biete keinen schnellen Wandel. Keine Optimierung. Keine
-                Lösung von außen.
+                Neben zahlreichen beruflichen Weiterbildungen im Bereich der Psychologie widme ich mich der ZEN-Philosophie.
               </p>
 
               <p className="text-foreground">
-                Sondern einen Raum, in dem Sie sich selbst begegnen können – mit
-                allem, was da ist.
+                Als Psychologe und Coach arbeite ich lösungsorientiert, respektvoll und nah am Menschen. Offenheit, Klarheit und eine wertschätzende Haltung bilden die Basis meiner Arbeit.
               </p>
             </div>
 
-            <div className="mt-10 pt-8 border-t border-border/50">
+            <div className="mt-10 pt-8 border-t border-border/50 space-y-2">
               <p className="text-sm text-muted-foreground">
-                Psychologischer Berater · Keine Heilbehandlung · Keine Therapie
+                MSc Angewandte Psychologie
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Heilpraktiker für Psychotherapie
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Systemischer Coach (DCV)
               </p>
             </div>
           </div>
