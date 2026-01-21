@@ -1,23 +1,28 @@
 const themes = [
   {
-    title: "Beziehung",
-    description: "Die Schwierigkeit, sich zu zeigen. Die Angst vor Nähe oder Verlust.",
+    title: "Angewandte Psychologie",
+    description:
+      "Wissenschaftliche Erkenntnisse verbunden mit praktischen Methoden, die im echten Leben Wirkung zeigen. Sie hilft, innere Muster, Reaktionen und Bedürfnisse besser zu verstehen.",
   },
   {
-    title: "Grenzen",
-    description: "Das Ringen um eigene Grenzen. Das Spüren, was stimmig ist.",
+    title: "Psychologische Beratung",
+    description:
+      "Unterstützung dabei, innere Klarheit zu gewinnen, Belastungen einzuordnen und neue Perspektiven zu entwickeln. Professionell, verständlich und nah am Menschen.",
   },
   {
-    title: "Leere",
-    description: "Innere Leere oder anhaltende Unruhe, die sich nicht erklären lässt.",
+    title: "Counseling",
+    description:
+      "Ein geschützter Raum, in dem Belastungen, Zweifel oder Überforderung Platz haben dürfen. Mit klarer Struktur und menschlicher Begleitung entsteht wieder innere Ordnung.",
   },
   {
-    title: "Identität",
-    description: "Das Gefühl, sich selbst verloren zu haben. Nicht mehr zu wissen, wer man ist.",
+    title: "Systemisches Coaching",
+    description:
+      "Wir betrachten nicht nur das Symptom, sondern das ganze Bild. Beziehungen, Muster und Rollen werden sichtbar – und damit auch neue Wege, sich selbst wirksam zu führen.",
   },
   {
-    title: "Sinn",
-    description: "Fragen, die keine schnellen Antworten haben. Und die dennoch gehört werden wollen.",
+    title: "Selbst & ICH",
+    description:
+      "Das Selbst und das ICH bilden unsere innere Grundlage. Ich unterstütze dabei, Klarheit über die eigene Identität zu gewinnen und ein gesundes Gefühl von Selbstvertrauen zu entwickeln.",
   },
 ];
 
@@ -27,11 +32,10 @@ const Themes = () => {
       <div className="container-wide">
         <div className="text-center mb-16 md:mb-20">
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6">
-            Was Menschen zu mir führt
+            Psychologie
           </h2>
-          <p className="text-text-body font-light max-w-xl mx-auto">
-            Es braucht keine Diagnose. Nur das Gespür, dass etwas nach
-            Aufmerksamkeit ruft.
+          <p className="text-text-body font-light max-w-2xl mx-auto text-justify-clean">
+            Psychologische Beratung, Coaching und Counseling – für Menschen, die Klarheit, Stärke und Balance suchen.
           </p>
         </div>
 
@@ -50,12 +54,6 @@ const Themes = () => {
               </p>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-16">
-          <p className="text-muted-foreground text-sm font-light italic">
-            Diese Themen sind Einladungen, keine Etiketten.
-          </p>
         </div>
       </div>
     </section>
