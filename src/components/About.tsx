@@ -18,7 +18,7 @@ const About = () => {
           </div>
 
           <div className="md:col-span-3">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4 whitespace-nowrap">
               Lernen wir uns kennen?
             </h2>
 

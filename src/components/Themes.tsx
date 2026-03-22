@@ -46,7 +46,7 @@ const Themes = () => {
               className="group p-8 rounded-lg bg-card/50 border border-transparent hover:border-border/50 transition-all duration-500"
             >
               <div className="w-2 h-2 rounded-full bg-primary/40 mb-6 group-hover:bg-primary transition-colors duration-500" />
-              <h3 className="font-serif text-xl text-foreground mb-3">
+              <h3 className="font-serif text-xl text-foreground mb-3 whitespace-nowrap">
                 {theme.title}
               </h3>
               <p className="text-text-body text-sm leading-relaxed text-justify-clean">
