@@ -22,7 +22,7 @@ const About = () => {
               Lernen wir uns kennen?
             </h2>
 
-            <div className="space-y-5 text-text-body font-light leading-relaxed text-justify-clean">
+            <div className="space-y-5 text-text-body leading-relaxed text-justify-clean">
               <p>
                 Mein Name ist Kai Siebert, geboren 1969 in Hamburg.
               </p>

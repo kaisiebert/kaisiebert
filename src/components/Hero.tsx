@@ -33,7 +33,7 @@ const Hero = () => {
 
         <div className="h-px w-16 bg-primary/30 mx-auto my-10 opacity-0 animate-fade-in-up animation-delay-600" />
 
-        <p className="text-text-body font-light leading-relaxed max-w-lg mx-auto opacity-0 animate-fade-in-up animation-delay-600">
+        <p className="text-text-body leading-relaxed max-w-lg mx-auto opacity-0 animate-fade-in-up animation-delay-600">
           Ein Raum für das, was Sie bewegt.
         </p>
       </div>
