@@ -34,7 +34,7 @@ const Themes = () => {
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6">
             Psychologie
           </h2>
-          <p className="text-text-body font-light max-w-2xl mx-auto text-justify-clean">
+          <p className="text-text-body max-w-2xl mx-auto text-justify-clean">
             Psychologische Beratung, Coaching und Counseling – für Menschen, die Klarheit, Stärke und Balance suchen.
           </p>
         </div>
