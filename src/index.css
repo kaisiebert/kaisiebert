@@ -8,13 +8,13 @@
   :root {
     /* Warm, contemplative palette */
     --background: 40 20% 98%;
-    --foreground: 210 12% 10%;
+    --foreground: 210 12% 8%;
     
     --card: 40 15% 96%;
-    --card-foreground: 210 12% 10%;
+    --card-foreground: 210 12% 8%;
     
     --popover: 40 20% 98%;
-    --popover-foreground: 210 8% 20%;
+    --popover-foreground: 210 12% 8%;
     
     /* Natural forest green - grounding, life */
     --primary: 150 25% 32%;
@@ -22,15 +22,15 @@
     
     /* Warm sage */
     --secondary: 145 15% 90%;
-    --secondary-foreground: 150 25% 25%;
+    --secondary-foreground: 150 25% 20%;
     
     /* Soft muted tones */
     --muted: 40 10% 94%;
-    --muted-foreground: 210 8% 32%;
+    --muted-foreground: 210 10% 22%;
     
     /* Subtle accent */
     --accent: 145 20% 94%;
-    --accent-foreground: 150 25% 28%;
+    --accent-foreground: 150 25% 22%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 40 20% 98%;
@@ -42,18 +42,18 @@
     --radius: 0.75rem;
     
     /* Custom design tokens */
-    --text-body: 210 10% 22%;
+    --text-body: 210 10% 16%;
     --enso-stroke: 150 20% 45%;
     --warm-cream: 42 30% 96%;
     --deep-charcoal: 210 8% 18%;
     
     /* Sidebar (keeping defaults) */
     --sidebar-background: 40 15% 97%;
-    --sidebar-foreground: 210 8% 25%;
+    --sidebar-foreground: 210 12% 12%;
     --sidebar-primary: 150 25% 32%;
     --sidebar-primary-foreground: 40 20% 98%;
     --sidebar-accent: 145 15% 92%;
-    --sidebar-accent-foreground: 150 25% 28%;
+    --sidebar-accent-foreground: 150 25% 22%;
     --sidebar-border: 40 15% 88%;
     --sidebar-ring: 150 25% 32%;
   }
@@ -75,7 +75,7 @@
     --secondary-foreground: 40 15% 90%;
     
     --muted: 210 10% 15%;
-    --muted-foreground: 40 10% 60%;
+    --muted-foreground: 40 10% 72%;
     
     --accent: 210 10% 15%;
     --accent-foreground: 40 15% 90%;
@@ -124,6 +124,12 @@
 @layer components {
   .text-body {
     @apply text-[hsl(var(--text-body))];
+  }
+
+  .text-body.font-light,
+  .text-muted-foreground.font-light,
+  .text-foreground.font-light {
+    font-weight: 400;
   }
   
   .text-justify-clean {
