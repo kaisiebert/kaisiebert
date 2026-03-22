@@ -13,8 +13,8 @@ const AviationHint = () => {
             </div>
 
             <div className="flex-grow text-center md:text-left">
-              <p className="text-xs uppercase tracking-widest text-primary mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
-              <p className="text-foreground leading-relaxed text-justify-clean">
+              <p className="text-xs uppercase tracking-widest text-[#2b7cb5] mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
+              <p className="text-deep-charcoal leading-relaxed text-justify-clean">
                 Kai Siebert ist neben seiner Tätigkeit im Bereich Coaching und Persönlichkeitsentwicklung auch als Experte für Luftsicherheit tätig.
               </p>
             </div>
