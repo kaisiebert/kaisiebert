@@ -21,7 +21,7 @@ const Impressum = () => {
 
           <section>
             <h2 className="font-serif text-xl text-foreground mb-4">
-              Niederlassung
+              Standort
             </h2>
             <p>Nürnberg</p>
           </section>
