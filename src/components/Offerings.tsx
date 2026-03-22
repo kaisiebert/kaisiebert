@@ -30,7 +30,7 @@ const Offerings = () => {
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6">
             Angebot
           </h2>
-          <p className="text-text-body font-light max-w-lg mx-auto">
+          <p className="text-text-body max-w-lg mx-auto">
             Coaching und Beratung. Persönlich oder per Videogespräch.
           </p>
         </div>
@@ -47,7 +47,7 @@ const Offerings = () => {
               <p className="text-sm text-muted-foreground mb-6">
                 {offering.duration}
               </p>
-              <p className="text-text-body font-light text-sm leading-relaxed flex-grow text-justify-clean">
+              <p className="text-text-body text-sm leading-relaxed flex-grow text-justify-clean">
                 {offering.description}
               </p>
               <div className="mt-8 pt-6 border-t border-border/50">
@@ -60,7 +60,7 @@ const Offerings = () => {
         </div>
 
         <div className="mt-16 p-8 rounded-lg bg-secondary/50 border border-border/30">
-          <p className="text-center text-text-body font-light text-sm text-justify-clean">
+          <p className="text-center text-text-body text-sm text-justify-clean">
             <span className="text-foreground">Wichtiger Hinweis:</span> Meine
             Arbeit ersetzt keine Psychotherapie oder ärztliche Behandlung. Bei
             akuten psychischen Krisen wenden Sie sich bitte an einen Arzt oder
