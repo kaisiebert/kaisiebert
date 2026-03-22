@@ -43,7 +43,7 @@ const Contact = () => {
             Termine nach Vereinbarung · Präsenz oder Video
           </p>
           <p className="text-muted-foreground text-sm font-light mt-2">
-            Niederlassung: Nürnberg
+            Standort: Nürnberg
           </p>
         </div>
       </div>
