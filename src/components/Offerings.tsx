@@ -47,7 +47,7 @@ const Offerings = () => {
               <p className="text-sm text-muted-foreground mb-6">
                 {offering.duration}
               </p>
-              <p className="text-text-body font-light text-sm leading-relaxed flex-grow text-justify-clean">
+              <p className="text-text-body text-sm leading-relaxed flex-grow text-justify-clean">
                 {offering.description}
               </p>
               <div className="mt-8 pt-6 border-t border-border/50">
