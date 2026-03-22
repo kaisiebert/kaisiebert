@@ -3,19 +3,17 @@ import ascatLogo from "@/assets/ascat-logo.png";
 const AviationHint = () => {
   return (
     <section className="py-16 md:py-20">
-      <div className="container-narrow">
-        <div className="relative p-10 md:p-12 rounded-xl bg-gradient-to-br from-card via-card to-secondary/30 border border-border shadow-sm hover:shadow-md transition-shadow duration-500">
+      <div className="w-full">
+        <div className="relative px-6 md:px-16 lg:px-24 py-10 md:py-12 bg-gradient-to-br from-card via-card to-secondary/30 border-y border-border shadow-sm hover:shadow-md transition-shadow duration-500">
           <div className="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
 
-          <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="flex flex-col md:flex-row items-center gap-8 max-w-6xl mx-auto">
             <div className="flex-shrink-0">
               <img src={ascatLogo} alt="ASCAT Logo" className="w-14 h-14 object-contain" />
             </div>
 
             <div className="flex-grow text-center md:text-left">
-              <p className="text-xs uppercase tracking-widest text-primary mb-3">
-                Weiterer Tätigkeitsbereich
-              </p>
+              <p className="text-xs uppercase tracking-widest text-primary mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
               <p className="text-foreground leading-relaxed text-justify-clean">
                 Kai Siebert ist neben seiner Tätigkeit im Bereich Coaching und Persönlichkeitsentwicklung auch als Experte für Luftsicherheit tätig.
               </p>
@@ -26,7 +24,7 @@ const AviationHint = () => {
                 href="https://aviation-security.org"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-3 text-sm font-medium text-primary-foreground bg-primary rounded-md hover:opacity-90 transition-all duration-300 shadow-sm"
+                className="inline-flex items-center gap-2 px-7 py-3 text-sm font-medium text-primary-foreground bg-primary rounded-md hover:opacity-90 transition-all duration-300 shadow-sm whitespace-nowrap"
               >
                 Mehr zur Luftsicherheit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
