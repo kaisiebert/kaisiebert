@@ -60,7 +60,7 @@ const Offerings = () => {
         </div>
 
         <div className="mt-16 p-8 rounded-lg bg-secondary/50 border border-border/30">
-          <p className="text-center text-text-body font-light text-sm text-justify-clean">
+          <p className="text-center text-text-body text-sm text-justify-clean">
             <span className="text-foreground">Wichtiger Hinweis:</span> Meine
             Arbeit ersetzt keine Psychotherapie oder ärztliche Behandlung. Bei
             akuten psychischen Krisen wenden Sie sich bitte an einen Arzt oder
