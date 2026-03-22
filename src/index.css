@@ -26,7 +26,7 @@
     
     /* Soft muted tones */
     --muted: 40 10% 94%;
-    --muted-foreground: 210 10% 22%;
+    --muted-foreground: 210 10% 18%;
     
     /* Subtle accent */
     --accent: 145 20% 94%;
@@ -42,7 +42,7 @@
     --radius: 0.75rem;
     
     /* Custom design tokens */
-    --text-body: 210 12% 10%;
+    --text-body: 210 12% 15%;
     --enso-stroke: 150 20% 45%;
     --warm-cream: 42 30% 96%;
     --deep-charcoal: 210 8% 18%;
