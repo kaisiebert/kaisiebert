@@ -13,8 +13,8 @@ const AviationHint = () => {
             </div>
 
             <div className="flex-grow text-center md:text-left">
-              <p className="text-xs uppercase tracking-widest text-primary mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
-              <p className="text-foreground leading-relaxed text-justify-clean">
+              <p className="text-xs uppercase tracking-widest text-[#2b7cb5] mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
+              <p className="text-deep-charcoal leading-relaxed text-justify-clean">
                 Kai Siebert ist neben seiner Tätigkeit im Bereich Coaching und Persönlichkeitsentwicklung auch als Experte für Luftsicherheit tätig.
               </p>
             </div>
@@ -24,7 +24,7 @@ const AviationHint = () => {
                 href="https://aviation-security.org"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-3 text-sm font-medium text-primary-foreground bg-primary rounded-md hover:opacity-90 transition-all duration-300 shadow-sm whitespace-nowrap"
+                className="inline-flex items-center gap-2 px-7 py-3 text-sm font-medium text-white bg-[#2b7cb5] rounded-md hover:bg-[#246a9e] transition-all duration-300 shadow-sm whitespace-nowrap"
               >
                 Mehr zur Luftsicherheit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
