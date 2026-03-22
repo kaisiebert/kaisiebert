@@ -15,7 +15,10 @@ const AviationHint = () => {
             <div className="flex-grow text-center md:text-left">
               <p className="text-xs uppercase tracking-widest text-[#2b7cb5] mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
               <p className="text-deep-charcoal leading-relaxed text-justify-clean">
-                Kai Siebert ist neben seiner Tätigkeit im Bereich Coaching und Persönlichkeitsentwicklung auch als Experte für Luftsicherheit tätig.
+                Neben meiner Tätigkeit im Bereich Coaching und Persönlichkeitsentwicklung bin ich auch als Experte für Luftsicherheit tätig.
+              </p>
+              <p className="text-deep-charcoal leading-relaxed mt-2">
+                Hier geht es zur Website von Kai Siebert Aviation-Security Consulting &amp; Training:
               </p>
             </div>
 
