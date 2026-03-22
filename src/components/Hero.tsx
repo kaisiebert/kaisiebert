@@ -27,7 +27,7 @@ const Hero = () => {
           Kai Siebert
         </h1>
 
-        <p className="text-lg md:text-xl text-text-body font-light mb-4 opacity-0 animate-fade-in-up animation-delay-400 tracking-wide">
+        <p className="text-lg md:text-xl text-text-body mb-4 opacity-0 animate-fade-in-up animation-delay-400 tracking-wide">
           Psychologische Beratung & Coaching
         </p>
 
