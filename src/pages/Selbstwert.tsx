@@ -90,7 +90,12 @@ const Selbstwert = () => {
           </div>
         </section>
 
-        {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
+         {/* Zen Flow Grafik als Trenner */}
+         <div className="flex justify-center py-8">
+           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-40" />
+         </div>
+
+         {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
         <section className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
