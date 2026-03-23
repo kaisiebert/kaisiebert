@@ -19,7 +19,7 @@ const Selbstwert = () => {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 leading-tight opacity-0 animate-fade-in-up">
               Du musst nicht selbstbewusster werden.
               <br />
-              <span className="text-primary">Du musst aufhören, gegen dich zu arbeiten.</span>
+              <span className="text-brand-green">Du musst aufhören, gegen dich zu arbeiten.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-text-body mb-6 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-200">
