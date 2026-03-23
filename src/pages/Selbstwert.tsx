@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import zenCircle from "@/assets/zen-circle-abstract.png";
 import zenFlow from "@/assets/zen-flow-abstract.png";
-import Footer from "@/components/Footer";
 
 const Selbstwert = () => {
   useEffect(() => {
