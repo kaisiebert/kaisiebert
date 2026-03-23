@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import zenCircle from "@/assets/zen-circle-abstract.png";
-import zenFlow from "@/assets/zen-flow-abstract.png";
-import ensoLogo from "@/assets/enso-logo.png";
+import zenCircle from "@/assets/zen-circle-abstract.webp";
+import zenFlow from "@/assets/zen-flow-abstract.webp";
+import ensoLogo from "@/assets/enso-logo.webp";
 
 const Selbstwert = () => {
   useEffect(() => {
