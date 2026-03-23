@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import useSeo from "@/hooks/use-seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import zenCircle from "@/assets/zen-circle-abstract.webp";
@@ -7,6 +7,12 @@ import zenFlow from "@/assets/zen-flow-abstract.webp";
 import ensoLogo from "@/assets/enso-logo.webp";
 
 const Selbstwert = () => {
+  useSeo({
+    title: "Selbstwert stärken · Psychologische Beratung",
+    description: "Selbstwert lässt sich nicht aufbauen – er war immer da. Psychologische Beratung und Coaching für Menschen, die aufhören wollen zu funktionieren und anfangen, sich zu spüren.",
+    canonical: "https://still-presence-space.lovable.app/selbstwert",
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
