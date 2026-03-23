@@ -29,8 +29,8 @@
     --muted-foreground: 210 10% 18%;
     
     /* Subtle accent */
-    --accent: 145 20% 94%;
-    --accent-foreground: 150 25% 22%;
+    --accent: 90 20% 94%;
+    --accent-foreground: 90 30% 22%;
     
     --destructive: 0 60% 50%;
     --destructive-foreground: 40 20% 98%;
