@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import ensoLogo from "@/assets/enso-logo.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,6 +15,11 @@ const Header = () => {
   }, []);
 
   const scrollToSection = (id: string) => {
+    if (location.pathname !== "/") {
+      window.location.href = `/#${id}`;
+      return;
+    }
+
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -28,28 +35,39 @@ const Header = () => {
       }`}
     >
       <nav className="container-wide py-5 flex items-center justify-between">
-        <button
-          onClick={() => scrollToSection("hero")}
+        <Link
+          to="/"
           className="flex items-center gap-3 hover:opacity-80 transition-opacity"
         >
           <img src={ensoLogo} alt="Kai Siebert Logo" className="h-10 w-10 object-contain" />
           <span className="font-serif text-xl tracking-wide text-foreground">Kai Siebert</span>
-        </button>
+        </Link>
 
         <div className="hidden md:flex items-center gap-10">
           {[
             { id: "ueber", label: "Über mich" },
             { id: "themen", label: "Themen" },
+            { href: "/selbstwert", label: "Selbstwert" },
             { id: "angebot", label: "Angebot" },
             { id: "kontakt", label: "Kontakt" },
           ].map((item) => (
-            <button
-              key={item.id}
-              onClick={() => scrollToSection(item.id)}
-              className="text-sm text-text-body hover:text-foreground transition-colors tracking-wide"
-            >
-              {item.label}
-            </button>
+            item.href ? (
+              <Link
+                key={item.label}
+                to={item.href}
+                className="text-sm text-text-body hover:text-foreground transition-colors tracking-wide"
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className="text-sm text-text-body hover:text-foreground transition-colors tracking-wide"
+              >
+                {item.label}
+              </button>
+            )
           ))}
         </div>
       </nav>
