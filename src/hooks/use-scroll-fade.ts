@@ -7,6 +7,15 @@ const useScrollFade = () => {
     const el = ref.current;
     if (!el) return;
 
+    // Check if element is already in or above the viewport
+    const rect = el.getBoundingClientRect();
+    const alreadyVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+    if (alreadyVisible) {
+      // Already visible, no animation needed
+      return;
+    }
+
     el.style.opacity = "0";
     el.style.transform = "translateY(24px)";
     el.style.transition = "opacity 0.8s ease-out, transform 0.8s ease-out";
@@ -19,7 +28,7 @@ const useScrollFade = () => {
           observer.unobserve(el);
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.05, rootMargin: "0px 0px -40px 0px" }
     );
 
     observer.observe(el);
