@@ -47,6 +47,10 @@
     --warm-cream: 42 30% 96%;
     --deep-charcoal: 210 8% 18%;
     
+    /* Brand CI colors (from logo) */
+    --brand-green: 90 49% 48%;
+    --brand-gray: 220 1% 45%;
+    
     /* Sidebar (keeping defaults) */
     --sidebar-background: 40 15% 97%;
     --sidebar-foreground: 210 12% 12%;

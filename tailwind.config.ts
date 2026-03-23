@@ -27,6 +27,8 @@ export default {
         "warm-cream": "hsl(var(--warm-cream))",
         "deep-charcoal": "hsl(var(--deep-charcoal))",
         "enso-stroke": "hsl(var(--enso-stroke))",
+        "brand-green": "hsl(var(--brand-green))",
+        "brand-gray": "hsl(var(--brand-gray))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
