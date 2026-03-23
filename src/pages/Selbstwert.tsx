@@ -148,7 +148,7 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
          {/* Zen Flow Grafik als Trenner */}
          <div className="flex justify-center py-8">
