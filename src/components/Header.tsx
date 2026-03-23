@@ -109,7 +109,7 @@ const Header = () => {
 
       {/* Mobile Menu Overlay */}
       {mobileOpen && (
-        <div className="md:hidden fixed inset-0 top-[73px] bg-background/98 backdrop-blur-md z-40 animate-fade-in-up">
+        <div className="md:hidden fixed inset-0 top-[73px] bg-background z-40">
           <div className="flex flex-col items-center justify-center gap-2 pt-16 px-8">
             {navItems.map((item) => renderNavItem(item, true))}
           </div>
