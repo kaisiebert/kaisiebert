@@ -56,7 +56,7 @@ const Selbstwert = () => {
         {/* PROBLEM-VERSTÄNDNIS — Nutzer fühlt sich verstanden */}
         <section className="section-spacing bg-card/50">
           <div className="container-narrow">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Vielleicht kennst du das
             </h2>
             <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
@@ -99,7 +99,7 @@ const Selbstwert = () => {
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
         <section className="section-spacing">
           <div className="container-narrow">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Selbstwert kann man nicht aufbauen
             </h2>
             <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
@@ -108,7 +108,7 @@ const Selbstwert = () => {
 
             <div className="space-y-12 max-w-2xl mx-auto">
               <div>
-                <h3 className="font-serif text-xl text-foreground mb-4 whitespace-nowrap">
+                <h3 className="font-serif text-xl text-foreground mb-4 md:whitespace-nowrap">
                   Der Unterschied zwischen Selbst und Selbstbild
                 </h3>
                 <p className="text-text-body leading-relaxed text-justify-clean">
@@ -121,7 +121,7 @@ const Selbstwert = () => {
               <div className="h-px w-full bg-border/30" />
 
               <div>
-                <h3 className="font-serif text-xl text-foreground mb-4 whitespace-nowrap">
+                <h3 className="font-serif text-xl text-foreground mb-4 md:whitespace-nowrap">
                   Warum Bewertung das eigentliche Problem ist
                 </h3>
                 <p className="text-text-body leading-relaxed text-justify-clean">
@@ -134,7 +134,7 @@ const Selbstwert = () => {
               <div className="h-px w-full bg-border/30" />
 
               <div>
-                <h3 className="font-serif text-xl text-foreground mb-4 whitespace-nowrap">
+                <h3 className="font-serif text-xl text-foreground mb-4 md:whitespace-nowrap">
                   Der Zugang, den du suchst
                 </h3>
                 <p className="text-text-body leading-relaxed text-justify-clean">
@@ -150,7 +150,7 @@ const Selbstwert = () => {
         {/* RADIKALE AKZEPTANZ — Wendepunkt */}
         <section className="section-spacing bg-card/50">
           <div className="container-narrow">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Veränderung beginnt mit Nicht-Verändern
             </h2>
             <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
@@ -190,7 +190,7 @@ const Selbstwert = () => {
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
         <section className="section-spacing">
           <div className="container-narrow">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Was sich verändern kann
             </h2>
             <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
@@ -220,7 +220,7 @@ const Selbstwert = () => {
                   key={index}
                   className="p-8 rounded-lg bg-card/50 border border-border/30"
                 >
-                  <h3 className="font-serif text-xl text-foreground mb-3 whitespace-nowrap">
+                  <h3 className="font-serif text-xl text-foreground mb-3 md:whitespace-nowrap">
                     {item.title}
                   </h3>
                   <p className="text-text-body text-sm leading-relaxed text-justify-clean">
@@ -235,7 +235,7 @@ const Selbstwert = () => {
         {/* ARBEITSWEISE — Vertrauen + Klarheit */}
         <section className="section-spacing bg-card/50">
           <div className="container-narrow">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Wie ich arbeite
             </h2>
             <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
@@ -280,7 +280,7 @@ const Selbstwert = () => {
         {/* CALL TO ACTION */}
         <section id="kontakt-selbstwert" className="section-spacing">
           <div className="container-narrow text-center">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 whitespace-nowrap">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 md:whitespace-nowrap">
               Ein Gespräch reicht oft
             </h2>
 
