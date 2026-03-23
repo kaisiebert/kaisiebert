@@ -154,7 +154,6 @@ const Selbstwert = () => {
          <FadeDiv className="flex justify-center py-8">
             <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-70" loading="lazy" />
          </FadeDiv>
-         </div>
 
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
         <section className="section-spacing">
