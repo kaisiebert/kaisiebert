@@ -69,7 +69,7 @@ const Selbstwert = () => {
                   key={index}
                   className="flex items-start gap-5 p-6 rounded-lg bg-background border border-border/30"
                 >
-                  <div className="w-2 h-2 rounded-full bg-primary/50 mt-2 shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-brand-green/50 mt-2 shrink-0" />
                   <p className="text-text-body leading-relaxed text-justify-clean">
                     {item}
                   </p>
