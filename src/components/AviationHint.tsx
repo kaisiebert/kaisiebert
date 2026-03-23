@@ -27,7 +27,7 @@ const AviationHint = () => {
                 href="https://aviation-security.org"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-3 text-sm font-medium text-white bg-[#2b7cb5] rounded-md hover:bg-[#246a9e] transition-all duration-300 shadow-sm whitespace-nowrap"
+                className="inline-flex items-center gap-2 px-7 py-3 text-sm font-medium text-primary-foreground bg-ascat-blue rounded-md hover:bg-ascat-blue/85 transition-all duration-300 shadow-sm whitespace-nowrap"
               >
                 Mehr zur Luftsicherheit
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
