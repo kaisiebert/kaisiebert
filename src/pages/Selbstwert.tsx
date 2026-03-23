@@ -135,7 +135,7 @@ const Selbstwert = () => {
 
          {/* Zen Flow Grafik als Trenner */}
          <div className="flex justify-center py-8">
-           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-40" />
+           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-40" loading="lazy" />
          </div>
 
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
