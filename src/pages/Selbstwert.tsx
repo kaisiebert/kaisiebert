@@ -292,7 +292,7 @@ const Selbstwert = () => {
         </FadeSection>
 
         {/* ARBEITSWEISE — Vertrauen + Klarheit */}
-        <section className="section-spacing bg-card/50">
+        <FadeSection className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Wie ich arbeite
