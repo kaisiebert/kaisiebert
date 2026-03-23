@@ -226,7 +226,7 @@ const Selbstwert = () => {
 
          {/* Zen Circle als Trenner */}
          <div className="flex justify-center py-8">
-           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-30" />
+           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-30" loading="lazy" />
          </div>
 
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
