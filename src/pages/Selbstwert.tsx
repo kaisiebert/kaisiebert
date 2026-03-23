@@ -7,9 +7,9 @@ import zenFlow from "@/assets/zen-flow-abstract.webp";
 import ensoLogo from "@/assets/enso-logo.webp";
 import useScrollFade from "@/hooks/use-scroll-fade";
 
-const FadeSection = ({ children, className = "" }: { children: ReactNode; className?: string }) => {
+const FadeSection = ({ children, className = "", id }: { children: ReactNode; className?: string; id?: string }) => {
   const ref = useScrollFade();
-  return <section ref={ref as React.RefObject<HTMLElement>} className={className}>{children}</section>;
+  return <section ref={ref as React.RefObject<HTMLElement>} className={className} id={id}>{children}</section>;
 };
 
 const FadeDiv = ({ children, className = "" }: { children: ReactNode; className?: string }) => {
