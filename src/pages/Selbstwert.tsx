@@ -301,7 +301,7 @@ const Selbstwert = () => {
             </div>
 
             <div className="mt-16 p-8 rounded-lg bg-card/50 border border-border/30">
-              <p className="text-text-body text-sm text-center">
+              <p className="text-text-body text-sm text-justify-clean">
                 <span className="text-foreground">Wichtiger Hinweis:</span> Meine Arbeit ersetzt keine Psychotherapie oder ärztliche Behandlung.
                 Bei akuten psychischen Krisen wenden Sie sich bitte an einen Arzt oder Therapeuten.
               </p>
