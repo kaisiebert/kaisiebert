@@ -27,14 +27,14 @@ const Selbstwert = () => {
               <span className="text-brand-green">Du musst aufhören, gegen dich zu arbeiten.</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-text-body mb-6 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-200">
+            <p className="text-lg md:text-xl text-text-body mb-6 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-200 text-justify-clean">
               Selbstwert lässt sich nicht aufbauen wie eine Fähigkeit.
               Er war immer da – verdeckt von Bewertung, Druck und dem Versuch, jemand zu sein.
             </p>
 
             <div className="h-px w-16 bg-brand-green/30 mx-auto my-10 opacity-0 animate-fade-in-up animation-delay-400" />
 
-            <p className="text-text-body leading-relaxed max-w-lg mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400">
+            <p className="text-text-body leading-relaxed max-w-lg mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400 text-justify-clean">
               Psychologische Beratung und Coaching für Menschen,
               die aufhören wollen zu funktionieren – und anfangen wollen, sich zu spüren.
             </p>
@@ -58,7 +58,7 @@ const Selbstwert = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
               Vielleicht kennst du das
             </h2>
-            <p className="text-text-body text-center mb-16 max-w-2xl mx-auto">
+            <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
               Du funktionierst. Du leistest. Aber innerlich bleibt ein Zweifel, der nicht aufhört.
             </p>
 
@@ -101,7 +101,7 @@ const Selbstwert = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
               Selbstwert kann man nicht aufbauen
             </h2>
-            <p className="text-text-body text-center mb-16 max-w-2xl mx-auto">
+            <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
               Das klingt irritierend. Aber genau hier beginnt echte Veränderung.
             </p>
 
@@ -152,7 +152,7 @@ const Selbstwert = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
               Veränderung beginnt mit Nicht-Verändern
             </h2>
-            <p className="text-text-body text-center mb-16 max-w-2xl mx-auto">
+            <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
               Das ist keine Resignation. Es ist der radikalste Schritt, den du gehen kannst.
             </p>
 
@@ -192,7 +192,7 @@ const Selbstwert = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
               Was sich verändern kann
             </h2>
-            <p className="text-text-body text-center mb-16 max-w-2xl mx-auto">
+            <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
               Keine Versprechen. Aber klare Erfahrungen aus der Arbeit mit Menschen.
             </p>
 
@@ -237,7 +237,7 @@ const Selbstwert = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
               Wie ich arbeite
             </h2>
-            <p className="text-text-body text-center mb-16 max-w-2xl mx-auto">
+            <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
               Kein Programm. Kein Schema. Sondern ein Raum, der sich nach Ihnen richtet.
             </p>
 
@@ -283,7 +283,7 @@ const Selbstwert = () => {
               Ein Gespräch reicht oft
             </h2>
 
-            <p className="text-text-body mb-12 max-w-lg mx-auto">
+            <p className="text-text-body mb-12 max-w-lg mx-auto text-justify-clean">
               Nicht, um alles zu klären. Aber um zu spüren, ob dieser Weg stimmig ist.
               Ohne Druck, ohne Verpflichtung.
             </p>
@@ -301,7 +301,7 @@ const Selbstwert = () => {
             </div>
 
             <div className="mt-16 p-8 rounded-lg bg-card/50 border border-border/30">
-              <p className="text-text-body text-sm text-center">
+              <p className="text-text-body text-sm text-justify-clean">
                 <span className="text-foreground">Wichtiger Hinweis:</span> Meine Arbeit ersetzt keine Psychotherapie oder ärztliche Behandlung.
                 Bei akuten psychischen Krisen wenden Sie sich bitte an einen Arzt oder Therapeuten.
               </p>
