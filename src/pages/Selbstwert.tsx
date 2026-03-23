@@ -281,7 +281,7 @@ const Selbstwert = () => {
                 Erstgespräch anfragen
               </a>
               <p className="text-muted-foreground text-sm">
-                Per E-Mail oder telefonisch: <a href="tel:+4917551813" className="text-foreground hover:text-primary transition-colors">0175 518 13 13</a>
+                Per E-Mail oder telefonisch: <a href="tel:+4917551813" className="text-foreground hover:text-brand-green transition-colors">0175 518 13 13</a>
               </p>
             </div>
 
