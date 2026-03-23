@@ -101,7 +101,7 @@ const Selbstwert = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
               Selbstwert kann man nicht aufbauen
             </h2>
-            <p className="text-text-body text-center mb-16 max-w-2xl mx-auto">
+            <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
               Das klingt irritierend. Aber genau hier beginnt echte Veränderung.
             </p>
 
