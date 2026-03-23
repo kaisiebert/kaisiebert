@@ -337,7 +337,7 @@ const Selbstwert = () => {
         </FadeSection>
 
         {/* CALL TO ACTION */}
-        <section id="kontakt-selbstwert" className="section-spacing">
+        <FadeSection id="kontakt-selbstwert" className="section-spacing">
           <div className="container-narrow text-center">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 md:whitespace-nowrap">
               Ein Gespräch reicht oft
