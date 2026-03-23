@@ -75,47 +75,49 @@ const Header = () => {
   };
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled || mobileOpen
-          ? "bg-background/90 backdrop-blur-md border-b border-border/50"
-          : "bg-transparent"
-      }`}
-    >
-      <nav className="container-wide py-5 flex items-center justify-between">
-        <Link
-          to="/"
-          className="flex items-center gap-3 hover:opacity-80 transition-opacity"
-          onClick={() => setMobileOpen(false)}
-        >
-          <img src={ensoLogo} alt="Kai Siebert Logo" className="h-10 w-10 object-contain" />
-          <span className="font-serif text-xl tracking-wide text-foreground">Kai Siebert</span>
-        </Link>
+    <>
+      <header
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+          scrolled || mobileOpen
+            ? "bg-background/90 backdrop-blur-md border-b border-border/50"
+            : "bg-transparent"
+        }`}
+      >
+        <nav className="container-wide py-5 flex items-center justify-between">
+          <Link
+            to="/"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            onClick={() => setMobileOpen(false)}
+          >
+            <img src={ensoLogo} alt="Kai Siebert Logo" className="h-10 w-10 object-contain" />
+            <span className="font-serif text-xl tracking-wide text-foreground">Kai Siebert</span>
+          </Link>
 
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-10">
-          {navItems.map((item) => renderNavItem(item))}
-        </div>
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center gap-10">
+            {navItems.map((item) => renderNavItem(item))}
+          </div>
 
-        {/* Mobile Hamburger Button */}
-        <button
-          className="md:hidden p-2 text-foreground hover:text-primary transition-colors"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label={mobileOpen ? "Menü schließen" : "Menü öffnen"}
-        >
-          {mobileOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </nav>
+          {/* Mobile Hamburger Button */}
+          <button
+            className="md:hidden p-2 text-foreground hover:text-primary transition-colors"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label={mobileOpen ? "Menü schließen" : "Menü öffnen"}
+          >
+            {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </nav>
+      </header>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Overlay — rendered outside header for correct stacking */}
       {mobileOpen && (
-        <div className="md:hidden fixed inset-0 top-[73px] bg-background/98 backdrop-blur-md z-40 animate-fade-in-up">
-          <div className="flex flex-col items-center justify-center gap-2 pt-16 px-8">
+        <div className="md:hidden fixed inset-0 top-[73px] bg-background z-[100]">
+          <div className="flex flex-col items-center gap-2 pt-16 px-8">
             {navItems.map((item) => renderNavItem(item, true))}
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 };
 
