@@ -59,7 +59,7 @@ const Selbstwert = () => {
 
             <div className="space-y-8 max-w-2xl mx-auto">
               {[
-                "Du bist kompetent – und trotzdem unsicher, ob du „richtig" bist.",
+                "Du bist kompetent – und trotzdem unsicher, ob du \u201Erichtig\u201C bist.",
                 "Du bewertest dich ständig. Jede Entscheidung, jedes Wort, jeden Auftritt.",
                 "Du trägst Verantwortung, aber innerlich fehlt dir der Boden.",
                 "Du optimierst dich seit Jahren – und es reicht trotzdem nie.",
