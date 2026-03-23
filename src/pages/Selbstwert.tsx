@@ -242,9 +242,9 @@ const Selbstwert = () => {
         </FadeSection>
 
          {/* Zen Circle als Trenner */}
-         <div className="flex justify-center py-8">
-           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-60" loading="lazy" />
-         </div>
+         <FadeDiv className="flex justify-center py-8">
+            <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-60" loading="lazy" />
+         </FadeDiv>
 
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
         <section className="section-spacing">
