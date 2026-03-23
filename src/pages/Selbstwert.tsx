@@ -36,7 +36,7 @@ const Selbstwert = () => {
 
             <a
               href="#kontakt-selbstwert"
-              className="inline-block px-8 py-4 bg-brand-green text-white font-medium tracking-wide rounded-lg hover:bg-brand-green/90 transition-all duration-300 opacity-0 animate-fade-in-up animation-delay-600"
+              className="inline-block px-8 py-4 bg-brand-green text-primary-foreground font-medium tracking-wide rounded-lg hover:bg-brand-green/90 transition-all duration-300 opacity-0 animate-fade-in-up animation-delay-600"
             >
               Erstgespräch vereinbaren
             </a>
