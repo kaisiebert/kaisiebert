@@ -109,8 +109,8 @@ const Header = () => {
 
       {/* Mobile Menu Overlay */}
       {mobileOpen && (
-        <div className="md:hidden fixed inset-0 top-[73px] bg-background z-40">
-          <div className="flex flex-col items-center justify-center gap-2 pt-16 px-8">
+        <div className="md:hidden fixed inset-x-0 top-[73px] bottom-0 bg-background z-[60]">
+          <div className="flex flex-col items-center gap-2 pt-16 px-8">
             {navItems.map((item) => renderNavItem(item, true))}
           </div>
         </div>
