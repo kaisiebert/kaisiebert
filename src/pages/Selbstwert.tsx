@@ -63,7 +63,7 @@ const Selbstwert = () => {
               Du funktionierst. Du leistest. Aber innerlich bleibt ein Zweifel, der nicht aufhört.
             </p>
 
-            <div className="space-y-3 max-w-2xl mx-auto">
+            <div className="space-y-1 max-w-2xl mx-auto">
               {[
                 "Du bist kompetent – und trotzdem unsicher, ob du \u201Erichtig\u201C bist.",
                 "Du bewertest dich ständig. Jede Entscheidung, jedes Wort, jeden Auftritt.",
@@ -73,7 +73,7 @@ const Selbstwert = () => {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-4 py-3 px-4"
+                  className="flex items-start gap-4 py-1.5 px-4"
                 >
                   <div className="w-1.5 h-1.5 rounded-full bg-brand-green/50 mt-2 shrink-0" />
                   <p className="text-text-body leading-relaxed">
