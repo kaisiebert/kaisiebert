@@ -62,10 +62,11 @@ const Header = () => {
         </Link>
       );
     }
+    const id = "id" in item ? item.id : undefined;
     return (
       <button
-        key={item.id}
-        onClick={() => scrollToSection(item.id!)}
+        key={id}
+        onClick={() => scrollToSection(id!)}
         className={baseClass}
       >
         {item.label}
