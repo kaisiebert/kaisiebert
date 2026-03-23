@@ -1,4 +1,12 @@
+import useSeo from "@/hooks/use-seo";
+
 const Datenschutz = () => {
+  useSeo({
+    title: "Datenschutzerklärung",
+    description: "Datenschutzerklärung von Kai Siebert – Psychologische Beratung & Coaching in Nürnberg.",
+    canonical: "https://still-presence-space.lovable.app/datenschutz",
+  });
+
   return (
     <main className="min-h-screen bg-background pt-24 pb-16">
       <div className="container-narrow">

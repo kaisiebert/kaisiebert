@@ -9,6 +9,28 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  useSeo({
+    title: "Kai Siebert · Psychologische Beratung & Coaching",
+    description: "Psychologische Beratung und Coaching für Selbstwahrnehmung und persönliche Entwicklung in Nürnberg. Ein Raum für das, was Sie bewegt.",
+    canonical: "https://still-presence-space.lovable.app/",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      name: "Kai Siebert – Psychologische Beratung & Coaching",
+      description: "Psychologische Beratung und Coaching für Selbstwahrnehmung und persönliche Entwicklung.",
+      url: "https://still-presence-space.lovable.app",
+      telephone: "+4917551813",
+      email: "info@kaisiebert.de",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Nürnberg",
+        addressCountry: "DE",
+      },
+      areaServed: "Nürnberg",
+      priceRange: "€€",
+    },
+  });
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
