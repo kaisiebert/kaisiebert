@@ -19,7 +19,7 @@ const Selbstwert = () => {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 leading-tight opacity-0 animate-fade-in-up">
               Du musst nicht selbstbewusster werden.
               <br />
-              <span className="text-primary">Du musst aufhören, gegen dich zu arbeiten.</span>
+              <span className="text-brand-green">Du musst aufhören, gegen dich zu arbeiten.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-text-body mb-6 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-200">
@@ -27,7 +27,7 @@ const Selbstwert = () => {
               Er war immer da – verdeckt von Bewertung, Druck und dem Versuch, jemand zu sein.
             </p>
 
-            <div className="h-px w-16 bg-primary/30 mx-auto my-10 opacity-0 animate-fade-in-up animation-delay-400" />
+            <div className="h-px w-16 bg-brand-green/30 mx-auto my-10 opacity-0 animate-fade-in-up animation-delay-400" />
 
             <p className="text-text-body leading-relaxed max-w-lg mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400">
               Psychologische Beratung und Coaching für Menschen,
@@ -36,14 +36,14 @@ const Selbstwert = () => {
 
             <a
               href="#kontakt-selbstwert"
-              className="inline-block px-8 py-4 bg-primary text-primary-foreground font-medium tracking-wide rounded-lg hover:bg-primary/90 transition-all duration-300 opacity-0 animate-fade-in-up animation-delay-600"
+              className="inline-block px-8 py-4 bg-brand-green text-white font-medium tracking-wide rounded-lg hover:bg-brand-green/90 transition-all duration-300 opacity-0 animate-fade-in-up animation-delay-600"
             >
               Erstgespräch vereinbaren
             </a>
           </div>
 
           <div className="absolute bottom-12 left-1/2 -translate-x-1/2">
-            <div className="w-px h-12 bg-gradient-to-b from-transparent via-primary/30 to-transparent animate-breathe" />
+            <div className="w-px h-12 bg-gradient-to-b from-transparent via-brand-green/30 to-transparent animate-breathe" />
           </div>
         </section>
 
@@ -69,7 +69,7 @@ const Selbstwert = () => {
                   key={index}
                   className="flex items-start gap-5 p-6 rounded-lg bg-background border border-border/30"
                 >
-                  <div className="w-2 h-2 rounded-full bg-primary/50 mt-2 shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-brand-green/50 mt-2 shrink-0" />
                   <p className="text-text-body leading-relaxed text-justify-clean">
                     {item}
                   </p>
@@ -153,7 +153,7 @@ const Selbstwert = () => {
                 Solange du nach Bestätigung suchst, bleibt die innere Leere bestehen.
               </p>
 
-              <div className="p-8 rounded-lg bg-background border border-primary/15">
+              <div className="p-8 rounded-lg bg-background border border-brand-green/15">
                 <p className="font-serif text-xl text-foreground text-center leading-relaxed">
                   Der Wendepunkt liegt nicht in einem neuen Werkzeug.
                   <br />
@@ -276,12 +276,12 @@ const Selbstwert = () => {
             <div className="space-y-6 mb-12">
               <a
                 href="mailto:info@kaisiebert.de"
-                className="inline-block px-10 py-4 bg-primary text-primary-foreground font-medium tracking-wide rounded-lg hover:bg-primary/90 transition-all duration-300"
+                className="inline-block px-10 py-4 bg-brand-green text-white font-medium tracking-wide rounded-lg hover:bg-brand-green/90 transition-all duration-300"
               >
                 Erstgespräch anfragen
               </a>
               <p className="text-muted-foreground text-sm">
-                Per E-Mail oder telefonisch: <a href="tel:+4917551813" className="text-foreground hover:text-primary transition-colors">0175 518 13 13</a>
+                Per E-Mail oder telefonisch: <a href="tel:+4917551813" className="text-foreground hover:text-brand-green transition-colors">0175 518 13 13</a>
               </p>
             </div>
 
