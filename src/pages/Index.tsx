@@ -1,3 +1,4 @@
+import useSeo from "@/hooks/use-seo";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import AviationHint from "@/components/AviationHint";

@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import useSeo from "@/hooks/use-seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import zenCircle from "@/assets/zen-circle-abstract.webp";
