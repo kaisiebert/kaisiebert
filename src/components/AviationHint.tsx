@@ -13,7 +13,7 @@ const AviationHint = () => {
             </div>
 
             <div className="flex-grow text-center md:text-left">
-              <p className="text-xs uppercase tracking-widest text-[#2b7cb5] mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
+              <p className="text-xs uppercase tracking-widest text-ascat-blue mb-1 whitespace-nowrap">Weiterer Tätigkeitsbereich</p>
               <p className="text-deep-charcoal leading-relaxed text-justify-clean">
                 Neben meiner Tätigkeit im Bereich Coaching und Persönlichkeitsentwicklung bin ich auch als Experte für Luftsicherheit tätig.
               </p>
