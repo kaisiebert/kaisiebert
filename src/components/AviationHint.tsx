@@ -1,4 +1,4 @@
-import ascatLogo from "@/assets/ascat-logo.png";
+import ascatLogo from "@/assets/ascat-logo.webp";
 
 const AviationHint = () => {
   return (
