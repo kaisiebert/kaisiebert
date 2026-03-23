@@ -1,4 +1,4 @@
-import ensoLogo from "@/assets/enso-logo.png";
+import ensoLogo from "@/assets/enso-logo.webp";
 
 const Contact = () => {
   return (
