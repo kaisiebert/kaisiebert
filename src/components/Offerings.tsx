@@ -30,7 +30,7 @@ const Offerings = () => {
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6">
             Angebot
           </h2>
-          <p className="text-text-body max-w-lg mx-auto">
+          <p className="text-text-body max-w-lg mx-auto text-center">
             Coaching und Beratung. Persönlich oder per Videogespräch.
           </p>
         </div>
