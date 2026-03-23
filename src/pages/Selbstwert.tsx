@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import zenCircle from "@/assets/zen-circle-abstract.png";
+import zenFlow from "@/assets/zen-flow-abstract.png";
 
 const Selbstwert = () => {
   useEffect(() => {
@@ -14,7 +16,10 @@ const Selbstwert = () => {
       <main>
         {/* HERO — Sofortige emotionale Resonanz */}
         <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
+           <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
+           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]">
+             <img src={zenCircle} alt="" className="w-[500px] h-[500px] object-contain animate-float" />
+           </div>
           <div className="container-narrow relative z-10 text-center">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 leading-tight opacity-0 animate-fade-in-up">
               Du musst nicht selbstbewusster werden.
@@ -85,7 +90,12 @@ const Selbstwert = () => {
           </div>
         </section>
 
-        {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
+         {/* Zen Flow Grafik als Trenner */}
+         <div className="flex justify-center py-8">
+           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-40" />
+         </div>
+
+         {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
         <section className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
@@ -171,7 +181,12 @@ const Selbstwert = () => {
           </div>
         </section>
 
-        {/* WAS SICH VERÄNDERT — Zukunftsbild */}
+         {/* Zen Circle als Trenner */}
+         <div className="flex justify-center py-8">
+           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-30" />
+         </div>
+
+         {/* WAS SICH VERÄNDERT — Zukunftsbild */}
         <section className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
