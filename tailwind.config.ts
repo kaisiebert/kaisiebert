@@ -29,6 +29,7 @@ export default {
         "enso-stroke": "hsl(var(--enso-stroke))",
         "brand-green": "hsl(var(--brand-green))",
         "brand-gray": "hsl(var(--brand-gray))",
+        "ascat-blue": "hsl(var(--ascat-blue))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
