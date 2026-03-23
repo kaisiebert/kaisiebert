@@ -43,7 +43,7 @@ const Selbstwert = () => {
           </div>
 
           <div className="absolute bottom-12 left-1/2 -translate-x-1/2">
-            <div className="w-px h-12 bg-gradient-to-b from-transparent via-primary/30 to-transparent animate-breathe" />
+            <div className="w-px h-12 bg-gradient-to-b from-transparent via-brand-green/30 to-transparent animate-breathe" />
           </div>
         </section>
 
