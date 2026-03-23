@@ -181,7 +181,12 @@ const Selbstwert = () => {
           </div>
         </section>
 
-        {/* WAS SICH VERÄNDERT — Zukunftsbild */}
+         {/* Zen Circle als Trenner */}
+         <div className="flex justify-center py-8">
+           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-30" />
+         </div>
+
+         {/* WAS SICH VERÄNDERT — Zukunftsbild */}
         <section className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center whitespace-nowrap">
