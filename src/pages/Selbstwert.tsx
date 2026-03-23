@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import zenCircle from "@/assets/zen-circle-abstract.png";
-import zenFlow from "@/assets/zen-flow-abstract.png";
-import ensoLogo from "@/assets/enso-logo.png";
+import zenCircle from "@/assets/zen-circle-abstract.webp";
+import zenFlow from "@/assets/zen-flow-abstract.webp";
+import ensoLogo from "@/assets/enso-logo.webp";
 
 const Selbstwert = () => {
   useEffect(() => {
@@ -135,7 +135,7 @@ const Selbstwert = () => {
 
          {/* Zen Flow Grafik als Trenner */}
          <div className="flex justify-center py-8">
-           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-40" />
+           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-40" loading="lazy" />
          </div>
 
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
@@ -226,7 +226,7 @@ const Selbstwert = () => {
 
          {/* Zen Circle als Trenner */}
          <div className="flex justify-center py-8">
-           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-30" />
+           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-30" loading="lazy" />
          </div>
 
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
