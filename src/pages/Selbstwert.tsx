@@ -27,7 +27,7 @@ const Selbstwert = () => {
               Er war immer da – verdeckt von Bewertung, Druck und dem Versuch, jemand zu sein.
             </p>
 
-            <div className="h-px w-16 bg-primary/30 mx-auto my-10 opacity-0 animate-fade-in-up animation-delay-400" />
+            <div className="h-px w-16 bg-brand-green/30 mx-auto my-10 opacity-0 animate-fade-in-up animation-delay-400" />
 
             <p className="text-text-body leading-relaxed max-w-lg mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400">
               Psychologische Beratung und Coaching für Menschen,
