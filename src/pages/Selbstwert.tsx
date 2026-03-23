@@ -16,7 +16,10 @@ const Selbstwert = () => {
       <main>
         {/* HERO — Sofortige emotionale Resonanz */}
         <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
+           <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
+           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]">
+             <img src={zenCircle} alt="" className="w-[500px] h-[500px] object-contain animate-float" />
+           </div>
           <div className="container-narrow relative z-10 text-center">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 leading-tight opacity-0 animate-fade-in-up">
               Du musst nicht selbstbewusster werden.
