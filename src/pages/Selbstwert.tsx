@@ -334,7 +334,7 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
         {/* CALL TO ACTION */}
         <section id="kontakt-selbstwert" className="section-spacing">
