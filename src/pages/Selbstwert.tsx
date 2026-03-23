@@ -1,10 +1,21 @@
-import { useEffect } from "react";
+import { useEffect, useRef, ReactNode } from "react";
 import useSeo from "@/hooks/use-seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import zenCircle from "@/assets/zen-circle-abstract.webp";
 import zenFlow from "@/assets/zen-flow-abstract.webp";
 import ensoLogo from "@/assets/enso-logo.webp";
+import useScrollFade from "@/hooks/use-scroll-fade";
+
+const FadeSection = ({ children, className = "" }: { children: ReactNode; className?: string }) => {
+  const ref = useScrollFade();
+  return <section ref={ref as React.RefObject<HTMLElement>} className={className}>{children}</section>;
+};
+
+const FadeDiv = ({ children, className = "" }: { children: ReactNode; className?: string }) => {
+  const ref = useScrollFade();
+  return <div ref={ref as React.RefObject<HTMLDivElement>} className={className}>{children}</div>;
+};
 
 const Selbstwert = () => {
   useSeo({
