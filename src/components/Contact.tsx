@@ -12,7 +12,7 @@ const Contact = () => {
           Kontakt
         </h2>
 
-        <p className="text-text-body mb-12 max-w-md mx-auto text-justify-clean">
+        <p className="text-text-body mb-12 max-w-md mx-auto text-center">
           Gemeinsam schaffen wir Raum für Entwicklung, innere Stabilität und echte Veränderung – Schritt für Schritt, in Ihrem Tempo.
         </p>
 
