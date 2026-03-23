@@ -239,7 +239,7 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
          {/* Zen Circle als Trenner */}
          <div className="flex justify-center py-8">
