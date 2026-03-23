@@ -16,13 +16,13 @@
     --popover: 40 20% 98%;
     --popover-foreground: 210 12% 8%;
     
-    /* Natural forest green - grounding, life */
-    --primary: 150 25% 32%;
-    --primary-foreground: 40 20% 98%;
+    /* CI Logo Green */
+    --primary: 90 49% 48%;
+    --primary-foreground: 0 0% 100%;
     
     /* Warm sage */
-    --secondary: 145 15% 90%;
-    --secondary-foreground: 150 25% 20%;
+    --secondary: 90 15% 90%;
+    --secondary-foreground: 90 30% 20%;
     
     /* Soft muted tones */
     --muted: 40 10% 94%;
