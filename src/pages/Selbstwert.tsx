@@ -204,7 +204,7 @@ const Selbstwert = () => {
               </div>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
         {/* RADIKALE AKZEPTANZ — Wendepunkt */}
         <section className="section-spacing bg-card/50">
