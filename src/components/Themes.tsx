@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const themes = [
   {
     title: "Angewandte Psychologie",
@@ -23,6 +25,7 @@ const themes = [
     title: "Selbst & ICH",
     description:
       "Das Selbst und das ICH bilden unsere innere Grundlage. Ich unterstütze dabei, Klarheit über die eigene Identität zu gewinnen und ein gesundes Gefühl von Selbstvertrauen zu entwickeln.",
+    link: "/selbstwert",
   },
 ];
 
@@ -40,20 +43,41 @@ const Themes = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-          {themes.map((theme, index) => (
-            <div
-              key={index}
-              className="group p-8 rounded-lg bg-card/50 border border-transparent hover:border-border/50 transition-all duration-500"
-            >
-              <div className="w-2 h-2 rounded-full bg-primary/40 mb-6 group-hover:bg-primary transition-colors duration-500" />
-              <h3 className="font-serif text-xl text-foreground mb-3 whitespace-nowrap">
-                {theme.title}
-              </h3>
-              <p className="text-text-body text-sm leading-relaxed text-justify-clean">
-                {theme.description}
-              </p>
-            </div>
-          ))}
+          {themes.map((theme, index) => {
+            const content = (
+              <>
+                <div className="w-2 h-2 rounded-full bg-primary/40 mb-6 group-hover:bg-primary transition-colors duration-500" />
+                <h3 className="font-serif text-xl text-foreground mb-3 whitespace-nowrap">
+                  {theme.title}
+                </h3>
+                <p className="text-text-body text-sm leading-relaxed text-justify-clean">
+                  {theme.description}
+                </p>
+                {theme.link && (
+                  <span className="inline-block mt-4 text-sm text-primary hover:text-primary/80 transition-colors">
+                    Mehr erfahren →
+                  </span>
+                )}
+              </>
+            );
+
+            return theme.link ? (
+              <Link
+                key={index}
+                to={theme.link}
+                className="group p-8 rounded-lg bg-card/50 border border-transparent hover:border-primary/20 transition-all duration-500"
+              >
+                {content}
+              </Link>
+            ) : (
+              <div
+                key={index}
+                className="group p-8 rounded-lg bg-card/50 border border-transparent hover:border-border/50 transition-all duration-500"
+              >
+                {content}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
