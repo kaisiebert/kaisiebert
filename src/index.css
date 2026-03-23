@@ -51,6 +51,9 @@
     --brand-green: 90 49% 48%;
     --brand-gray: 220 1% 45%;
     
+    /* ASCAT brand color */
+    --ascat-blue: 205 62% 44%;
+    
     /* Sidebar (keeping defaults) */
     --sidebar-background: 40 15% 97%;
     --sidebar-foreground: 210 12% 12%;
