@@ -59,11 +59,11 @@ const Selbstwert = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Vielleicht kennst du das
             </h2>
-            <p className="text-text-body text-justify-clean mb-16 max-w-2xl mx-auto">
+            <p className="text-text-body text-justify-clean mb-10 max-w-2xl mx-auto">
               Du funktionierst. Du leistest. Aber innerlich bleibt ein Zweifel, der nicht aufhört.
             </p>
 
-            <div className="space-y-8 max-w-2xl mx-auto">
+            <div className="space-y-3 max-w-2xl mx-auto">
               {[
                 "Du bist kompetent – und trotzdem unsicher, ob du \u201Erichtig\u201C bist.",
                 "Du bewertest dich ständig. Jede Entscheidung, jedes Wort, jeden Auftritt.",
@@ -73,17 +73,17 @@ const Selbstwert = () => {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-5 p-6 rounded-lg bg-background border border-border/30"
+                  className="flex items-start gap-4 py-3 px-4"
                 >
-                  <div className="w-2 h-2 rounded-full bg-brand-green/50 mt-2 shrink-0" />
-                  <p className="text-text-body leading-relaxed text-justify-clean">
+                  <div className="w-1.5 h-1.5 rounded-full bg-brand-green/50 mt-2 shrink-0" />
+                  <p className="text-text-body leading-relaxed">
                     {item}
                   </p>
                 </div>
               ))}
             </div>
 
-            <div className="mt-16 text-center">
+            <div className="mt-10 text-center">
               <p className="text-foreground font-serif text-xl leading-relaxed max-w-xl mx-auto">
                 Das ist kein Defizit. Das ist ein Muster. Und Muster lassen sich verstehen.
               </p>
