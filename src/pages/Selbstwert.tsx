@@ -1,10 +1,21 @@
-import { useEffect } from "react";
+import { useEffect, useRef, ReactNode } from "react";
 import useSeo from "@/hooks/use-seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import zenCircle from "@/assets/zen-circle-abstract.webp";
 import zenFlow from "@/assets/zen-flow-abstract.webp";
 import ensoLogo from "@/assets/enso-logo.webp";
+import useScrollFade from "@/hooks/use-scroll-fade";
+
+const FadeSection = ({ children, className = "", id }: { children: ReactNode; className?: string; id?: string }) => {
+  const ref = useScrollFade();
+  return <section ref={ref as React.RefObject<HTMLElement>} className={className} id={id}>{children}</section>;
+};
+
+const FadeDiv = ({ children, className = "" }: { children: ReactNode; className?: string }) => {
+  const ref = useScrollFade();
+  return <div ref={ref as React.RefObject<HTMLDivElement>} className={className}>{children}</div>;
+};
 
 const Selbstwert = () => {
   useSeo({
@@ -60,7 +71,7 @@ const Selbstwert = () => {
         </section>
 
         {/* PROBLEM-VERSTÄNDNIS — Nutzer fühlt sich verstanden */}
-        <section className="section-spacing bg-card/50">
+        <FadeSection className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Vielleicht kennst du das
@@ -137,15 +148,15 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
          {/* Zen Flow Grafik als Trenner */}
-         <div className="flex justify-center py-8">
-           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-70" loading="lazy" />
-         </div>
+         <FadeDiv className="flex justify-center py-8">
+            <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-70" loading="lazy" />
+         </FadeDiv>
 
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
-        <section className="section-spacing">
+        <FadeSection className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Selbstwert kann man nicht aufbauen
@@ -193,10 +204,10 @@ const Selbstwert = () => {
               </div>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
         {/* RADIKALE AKZEPTANZ — Wendepunkt */}
-        <section className="section-spacing bg-card/50">
+        <FadeSection className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Veränderung beginnt mit Nicht-Verändern
@@ -228,15 +239,15 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
          {/* Zen Circle als Trenner */}
-         <div className="flex justify-center py-8">
-           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-60" loading="lazy" />
-         </div>
+         <FadeDiv className="flex justify-center py-8">
+            <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-60" loading="lazy" />
+         </FadeDiv>
 
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
-        <section className="section-spacing">
+        <FadeSection className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Was sich verändern kann
@@ -278,10 +289,10 @@ const Selbstwert = () => {
               ))}
             </div>
           </div>
-        </section>
+        </FadeSection>
 
         {/* ARBEITSWEISE — Vertrauen + Klarheit */}
-        <section className="section-spacing bg-card/50">
+        <FadeSection className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Wie ich arbeite
@@ -323,10 +334,10 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
 
         {/* CALL TO ACTION */}
-        <section id="kontakt-selbstwert" className="section-spacing">
+        <FadeSection id="kontakt-selbstwert" className="section-spacing">
           <div className="container-narrow text-center">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 md:whitespace-nowrap">
               Ein Gespräch reicht oft
@@ -356,7 +367,7 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
       </main>
       <Footer />
     </div>
