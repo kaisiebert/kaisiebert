@@ -276,7 +276,7 @@ const Selbstwert = () => {
             <div className="space-y-6 mb-12">
               <a
                 href="mailto:info@kaisiebert.de"
-                className="inline-block px-10 py-4 bg-primary text-primary-foreground font-medium tracking-wide rounded-lg hover:bg-primary/90 transition-all duration-300"
+                className="inline-block px-10 py-4 bg-brand-green text-white font-medium tracking-wide rounded-lg hover:bg-brand-green/90 transition-all duration-300"
               >
                 Erstgespräch anfragen
               </a>
