@@ -153,7 +153,7 @@ const Selbstwert = () => {
                 Solange du nach Bestätigung suchst, bleibt die innere Leere bestehen.
               </p>
 
-              <div className="p-8 rounded-lg bg-background border border-primary/15">
+              <div className="p-8 rounded-lg bg-background border border-brand-green/15">
                 <p className="font-serif text-xl text-foreground text-center leading-relaxed">
                   Der Wendepunkt liegt nicht in einem neuen Werkzeug.
                   <br />
