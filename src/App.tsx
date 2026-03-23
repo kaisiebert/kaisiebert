@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
+import Selbstwert from "./pages/Selbstwert";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
