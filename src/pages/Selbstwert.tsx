@@ -283,7 +283,7 @@ const Selbstwert = () => {
               Ein Gespräch reicht oft
             </h2>
 
-            <p className="text-text-body mb-12 max-w-lg mx-auto">
+            <p className="text-text-body mb-12 max-w-lg mx-auto text-justify-clean">
               Nicht, um alles zu klären. Aber um zu spüren, ob dieser Weg stimmig ist.
               Ohne Druck, ohne Verpflichtung.
             </p>
