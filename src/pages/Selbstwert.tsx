@@ -367,7 +367,7 @@ const Selbstwert = () => {
               </p>
             </div>
           </div>
-        </section>
+        </FadeSection>
       </main>
       <Footer />
     </div>
