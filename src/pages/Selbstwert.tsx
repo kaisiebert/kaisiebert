@@ -135,7 +135,7 @@ const Selbstwert = () => {
 
          {/* Zen Flow Grafik als Trenner */}
          <div className="flex justify-center py-8">
-           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-40" loading="lazy" />
+           <img src={zenFlow} alt="" className="w-64 md:w-80 opacity-70" loading="lazy" />
          </div>
 
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
@@ -226,7 +226,7 @@ const Selbstwert = () => {
 
          {/* Zen Circle als Trenner */}
          <div className="flex justify-center py-8">
-           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-30" loading="lazy" />
+           <img src={zenCircle} alt="" className="w-24 md:w-32 opacity-60" loading="lazy" />
          </div>
 
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
