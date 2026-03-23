@@ -83,6 +83,48 @@ const Selbstwert = () => {
               ))}
             </div>
 
+            <div className="mt-12 max-w-2xl mx-auto">
+              <h3 className="font-serif text-xl text-foreground mb-6 text-center">
+                Wo sich mangelnder Selbstwert besonders zeigt
+              </h3>
+
+              <div className="grid sm:grid-cols-2 gap-6">
+                <div className="p-6 rounded-lg bg-background border border-border/30">
+                  <h4 className="font-serif text-lg text-foreground mb-3">In Beziehungen</h4>
+                  <div className="space-y-1">
+                    {[
+                      "Du passt dich an, um nicht abgelehnt zu werden.",
+                      "Du gibst mehr, als dir guttut – und fühlst dich trotzdem nicht gesehen.",
+                      "Nähe macht dir Angst, Distanz macht dich unsicher.",
+                      "Du ziehst Menschen an, die dich klein halten – oder du hältst dich selbst klein.",
+                    ].map((item, i) => (
+                      <div key={i} className="flex items-start gap-3 py-1 px-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-brand-green/50 mt-2 shrink-0" />
+                        <p className="text-text-body text-sm leading-relaxed">{item}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="p-6 rounded-lg bg-background border border-border/30">
+                  <h4 className="font-serif text-lg text-foreground mb-3">Im Beruf</h4>
+                  <div className="space-y-1">
+                    {[
+                      "Du arbeitest härter als nötig – aus Angst, nicht zu genügen.",
+                      "Lob erreichst du kaum, Kritik trifft dich tief.",
+                      "Du traust dich nicht, Grenzen zu setzen oder Nein zu sagen.",
+                      "Du übernimmst Verantwortung für alles – und fühlst dich chronisch überfordert.",
+                    ].map((item, i) => (
+                      <div key={i} className="flex items-start gap-3 py-1 px-2">
+                        <div className="w-1.5 h-1.5 rounded-full bg-brand-green/50 mt-2 shrink-0" />
+                        <p className="text-text-body text-sm leading-relaxed">{item}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="mt-10 text-center">
               <p className="text-foreground font-serif text-xl leading-relaxed max-w-xl mx-auto">
                 Das ist kein Defizit. Das ist ein Muster. Und Muster lassen sich verstehen.
