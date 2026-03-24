@@ -6,6 +6,7 @@ import zenCircle from "@/assets/zen-circle-abstract.webp";
 import zenFlow from "@/assets/zen-flow-abstract.webp";
 import ensoLogo from "@/assets/enso-logo.webp";
 import useScrollFade from "@/hooks/use-scroll-fade";
+import SelbstwertNav from "@/components/SelbstwertNav";
 
 const FadeSection = ({ children, className = "", id }: { children: ReactNode; className?: string; id?: string }) => {
   const ref = useScrollFade();
@@ -31,6 +32,7 @@ const Selbstwert = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <SelbstwertNav />
       <main>
         {/* HERO — Sofortige emotionale Resonanz */}
         <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
@@ -71,7 +73,7 @@ const Selbstwert = () => {
         </section>
 
         {/* PROBLEM-VERSTÄNDNIS — Nutzer fühlt sich verstanden */}
-        <FadeSection className="section-spacing bg-card/50">
+        <FadeSection id="sw-problem" className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Vielleicht kennst du das
@@ -156,7 +158,7 @@ const Selbstwert = () => {
          </FadeDiv>
 
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
-        <FadeSection className="section-spacing">
+        <FadeSection id="sw-klarheit" className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Selbstwert kann man nicht aufbauen
@@ -207,7 +209,7 @@ const Selbstwert = () => {
         </FadeSection>
 
         {/* RADIKALE AKZEPTANZ — Wendepunkt */}
-        <FadeSection className="section-spacing bg-card/50">
+        <FadeSection id="sw-akzeptanz" className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Veränderung beginnt mit Nicht-Verändern
@@ -247,7 +249,7 @@ const Selbstwert = () => {
          </FadeDiv>
 
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
-        <FadeSection className="section-spacing">
+        <FadeSection id="sw-veraenderung" className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Was sich verändern kann
@@ -292,7 +294,7 @@ const Selbstwert = () => {
         </FadeSection>
 
         {/* ARBEITSWEISE — Vertrauen + Klarheit */}
-        <FadeSection className="section-spacing bg-card/50">
+        <FadeSection id="sw-arbeitsweise" className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Wie ich arbeite
