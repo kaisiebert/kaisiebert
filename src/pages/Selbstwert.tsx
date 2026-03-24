@@ -6,6 +6,7 @@ import zenCircle from "@/assets/zen-circle-abstract.webp";
 import zenFlow from "@/assets/zen-flow-abstract.webp";
 import ensoLogo from "@/assets/enso-logo.webp";
 import useScrollFade from "@/hooks/use-scroll-fade";
+import SelbstwertNav from "@/components/SelbstwertNav";
 
 const FadeSection = ({ children, className = "", id }: { children: ReactNode; className?: string; id?: string }) => {
   const ref = useScrollFade();
