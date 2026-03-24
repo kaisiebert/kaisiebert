@@ -249,7 +249,7 @@ const Selbstwert = () => {
          </FadeDiv>
 
          {/* WAS SICH VERÄNDERT — Zukunftsbild */}
-        <FadeSection className="section-spacing">
+        <FadeSection id="sw-veraenderung" className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Was sich verändern kann
