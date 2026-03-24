@@ -158,7 +158,7 @@ const Selbstwert = () => {
          </FadeDiv>
 
          {/* PSYCHOLOGISCHE KLARHEIT — Aha-Moment */}
-        <FadeSection className="section-spacing">
+        <FadeSection id="sw-klarheit" className="section-spacing">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Selbstwert kann man nicht aufbauen
