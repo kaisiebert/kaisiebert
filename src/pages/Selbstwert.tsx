@@ -73,7 +73,7 @@ const Selbstwert = () => {
         </section>
 
         {/* PROBLEM-VERSTÄNDNIS — Nutzer fühlt sich verstanden */}
-        <FadeSection className="section-spacing bg-card/50">
+        <FadeSection id="sw-problem" className="section-spacing bg-card/50">
           <div className="container-narrow">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 text-center md:whitespace-nowrap">
               Vielleicht kennst du das
