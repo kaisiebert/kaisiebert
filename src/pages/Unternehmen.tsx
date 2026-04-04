@@ -90,7 +90,7 @@ const Unternehmen = () => {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-security-muted max-w-2xl mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400">
+            <p className="text-lg md:text-xl text-security-muted max-w-2xl mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400 text-justify-clean">
               Psychologisch fundierte Gefahrenabwehr, Terrorprävention und
               Sicherheitsbewusstsein – für Organisationen, die Verantwortung
               ernst nehmen.
