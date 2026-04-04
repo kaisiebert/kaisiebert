@@ -148,11 +148,17 @@
   }
   
   .text-justify-clean {
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: left;
     hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+  }
+
+  @media (min-width: 768px) {
+    .text-justify-clean {
+      text-align: justify;
+      text-justify: inter-word;
+    }
   }
   
   .section-spacing {
