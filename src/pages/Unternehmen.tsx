@@ -113,7 +113,7 @@ const Unternehmen = () => {
               <h2 className="font-serif text-3xl md:text-4xl text-security-fg mb-6">
                 Leistungen
               </h2>
-              <p className="text-security-muted max-w-2xl mx-auto">
+              <p className="text-security-muted max-w-2xl mx-auto text-justify-clean">
                 Von der Risikoanalyse bis zur Schulung – maßgeschneiderte
                 Lösungen für Ihre Sicherheitsanforderungen.
               </p>
