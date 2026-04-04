@@ -86,7 +86,7 @@ const Index = () => {
           {/* Unternehmen */}
           <Link
             to="/unternehmen"
-            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col"
+            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col opacity-0 animate-fade-in-up animation-delay-800"
           >
             <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-[hsl(var(--security-accent))]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
