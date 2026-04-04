@@ -31,7 +31,7 @@ const Selbstwert = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      <Header variant="beratung" />
       <SelbstwertNav />
       <main>
         {/* HERO — Sofortige emotionale Resonanz */}
