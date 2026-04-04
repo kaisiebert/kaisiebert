@@ -40,20 +40,6 @@ const Index = () => {
             Kai Siebert
           </span>
         </div>
-        <nav className="hidden md:flex items-center gap-8">
-          <Link
-            to="/ueber-mich"
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Über mich
-          </Link>
-          <Link
-            to="/bewusstsein"
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Bewusstsein
-          </Link>
-        </nav>
       </header>
 
       {/* Hero Split Section */}
