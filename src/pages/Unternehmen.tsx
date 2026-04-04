@@ -154,7 +154,7 @@ const Unternehmen = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-security-fg mb-6 text-center">
               Warum Kai Siebert
             </h2>
-            <p className="text-security-muted text-center mb-12 max-w-xl mx-auto">
+            <p className="text-security-muted text-center mb-12 max-w-xl mx-auto text-justify-clean">
               Die Verbindung von psychologischer Expertise und
               Sicherheitspraxis macht den Unterschied.
             </p>
