@@ -54,6 +54,14 @@
     /* ASCAT brand color */
     --ascat-blue: 205 62% 44%;
     
+    /* Security / Business tokens */
+    --security-bg: 220 15% 10%;
+    --security-fg: 220 10% 92%;
+    --security-card: 220 14% 14%;
+    --security-border: 220 12% 22%;
+    --security-muted: 220 10% 55%;
+    --security-accent: 25 90% 55%;
+    
     /* Sidebar (keeping defaults) */
     --sidebar-background: 40 15% 97%;
     --sidebar-foreground: 210 12% 12%;

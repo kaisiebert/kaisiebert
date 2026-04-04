@@ -30,6 +30,12 @@ export default {
         "brand-green": "hsl(var(--brand-green))",
         "brand-gray": "hsl(var(--brand-gray))",
         "ascat-blue": "hsl(var(--ascat-blue))",
+        "security-bg": "hsl(var(--security-bg))",
+        "security-fg": "hsl(var(--security-fg))",
+        "security-card": "hsl(var(--security-card))",
+        "security-border": "hsl(var(--security-border))",
+        "security-muted": "hsl(var(--security-muted))",
+        "security-accent": "hsl(var(--security-accent))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
