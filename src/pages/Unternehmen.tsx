@@ -8,10 +8,10 @@ import Footer from "@/components/Footer";
 const services = [
   {
     icon: Shield,
-    title: "Terrorprävention & Gefahrenabwehr",
+    title: "Psychologische Sensibilisierung & Gefahrenbewusstsein",
     description:
-      "Umfassende Beratung und Konzeption zur Prävention von Anschlägen, Übergriffen und sicherheitsrelevanten Vorfällen in Ihrem Unternehmen.",
-    keywords: ["Risikoanalyse", "Bedrohungsmanagement", "Präventionskonzepte"],
+      "Fundierte Beratung zur Erkennung und Prävention hybrider Bedrohungen – von Extremismus und Radikalisierung über Rassismus bis hin zu organisierter Gewalt. Psychologisch fundiert, praxisnah und auf Ihr Umfeld abgestimmt.",
+    keywords: ["Bedrohungserkennung", "Radikalisierungsprävention", "Hybride Gefahren"],
   },
   {
     icon: Eye,
