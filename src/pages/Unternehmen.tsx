@@ -90,7 +90,7 @@ const Unternehmen = () => {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-security-muted max-w-2xl mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400">
+            <p className="text-lg md:text-xl text-security-muted max-w-2xl mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400 text-justify-clean">
               Psychologisch fundierte Gefahrenabwehr, Terrorprävention und
               Sicherheitsbewusstsein – für Organisationen, die Verantwortung
               ernst nehmen.
@@ -113,7 +113,7 @@ const Unternehmen = () => {
               <h2 className="font-serif text-3xl md:text-4xl text-security-fg mb-6">
                 Leistungen
               </h2>
-              <p className="text-security-muted max-w-2xl mx-auto">
+              <p className="text-security-muted max-w-2xl mx-auto text-justify-clean">
                 Von der Risikoanalyse bis zur Schulung – maßgeschneiderte
                 Lösungen für Ihre Sicherheitsanforderungen.
               </p>
@@ -129,7 +129,7 @@ const Unternehmen = () => {
                   <h3 className="font-serif text-xl md:text-2xl text-security-fg mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-security-muted leading-relaxed mb-6">
+                  <p className="text-security-muted leading-relaxed mb-6 text-justify-clean">
                     {service.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -154,7 +154,7 @@ const Unternehmen = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-security-fg mb-6 text-center">
               Warum Kai Siebert
             </h2>
-            <p className="text-security-muted text-center mb-12 max-w-xl mx-auto">
+            <p className="text-security-muted text-center mb-12 max-w-xl mx-auto text-justify-clean">
               Die Verbindung von psychologischer Expertise und
               Sicherheitspraxis macht den Unterschied.
             </p>
@@ -193,7 +193,7 @@ const Unternehmen = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-security-fg mb-6">
               Lassen Sie uns sprechen.
             </h2>
-            <p className="text-security-muted mb-12 max-w-lg mx-auto">
+            <p className="text-security-muted mb-12 max-w-lg mx-auto text-justify-clean">
               Ein erstes Gespräch klärt Ihren Bedarf. Unverbindlich,
               vertraulich, konkret.
             </p>
