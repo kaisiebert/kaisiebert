@@ -129,7 +129,7 @@ const Unternehmen = () => {
                   <h3 className="font-serif text-xl md:text-2xl text-security-fg mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-security-muted leading-relaxed mb-6">
+                  <p className="text-security-muted leading-relaxed mb-6 text-justify-clean">
                     {service.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
