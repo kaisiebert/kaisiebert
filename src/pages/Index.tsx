@@ -57,20 +57,20 @@ const Index = () => {
       </header>
 
       {/* Hero Split Section */}
-      <main className="flex-grow flex flex-col items-center justify-center px-6 md:px-12 py-12 md:py-0">
+      <main className="flex-grow flex flex-col items-center justify-center px-6 md:px-12 py-8 md:py-0">
         {/* Central Headline */}
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-tight opacity-0 animate-fade-in-up">
+        <div className="text-center mb-10 md:mb-12 max-w-3xl mx-auto">
+          <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl text-foreground mb-4 leading-tight opacity-0 animate-fade-in-up">
             Sicherheit beginnt im Menschen.
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground opacity-0 animate-fade-in-up animation-delay-200">
+          <p className="text-base md:text-xl text-muted-foreground opacity-0 animate-fade-in-up animation-delay-200">
             Für Sie persönlich. Für Ihre Organisation.
           </p>
-          <div className="h-px w-20 bg-primary/30 mx-auto mt-10 opacity-0 animate-fade-in-up animation-delay-400" />
+          <div className="h-px w-20 bg-primary/30 mx-auto mt-6 opacity-0 animate-fade-in-up animation-delay-400" />
         </div>
 
         {/* Two Paths */}
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl w-full opacity-0 animate-fade-in-up animation-delay-600">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-5xl w-full opacity-0 animate-fade-in-up animation-delay-600">
           {/* Privatpersonen */}
           <Link
             to="/beratung"
