@@ -193,7 +193,7 @@ const Unternehmen = () => {
             <h2 className="font-serif text-3xl md:text-4xl text-security-fg mb-6">
               Lassen Sie uns sprechen.
             </h2>
-            <p className="text-security-muted mb-12 max-w-lg mx-auto">
+            <p className="text-security-muted mb-12 max-w-lg mx-auto text-justify-clean">
               Ein erstes Gespräch klärt Ihren Bedarf. Unverbindlich,
               vertraulich, konkret.
             </p>
