@@ -57,29 +57,29 @@ const Index = () => {
       </header>
 
       {/* Hero Split Section */}
-      <main className="flex-grow flex flex-col items-center justify-center px-6 md:px-12 py-12 md:py-0">
+      <main className="flex-grow flex flex-col items-center justify-center px-6 md:px-12 py-8 md:py-0">
         {/* Central Headline */}
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-tight opacity-0 animate-fade-in-up">
+        <div className="text-center mb-10 md:mb-12 max-w-3xl mx-auto">
+          <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl text-foreground mb-4 leading-tight opacity-0 animate-fade-in-up">
             Sicherheit beginnt im Menschen.
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground opacity-0 animate-fade-in-up animation-delay-200">
+          <p className="text-base md:text-xl text-muted-foreground opacity-0 animate-fade-in-up animation-delay-200">
             Für Sie persönlich. Für Ihre Organisation.
           </p>
-          <div className="h-px w-20 bg-primary/30 mx-auto mt-10 opacity-0 animate-fade-in-up animation-delay-400" />
+          <div className="h-px w-20 bg-primary/30 mx-auto mt-6 opacity-0 animate-fade-in-up animation-delay-400" />
         </div>
 
         {/* Two Paths */}
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl w-full opacity-0 animate-fade-in-up animation-delay-600">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-5xl w-full opacity-0 animate-fade-in-up animation-delay-600">
           {/* Privatpersonen */}
           <Link
             to="/beratung"
-            className="group relative p-10 md:p-12 rounded-2xl border border-border/50 bg-card/50 hover:border-primary/30 hover:bg-card transition-all duration-500 flex flex-col"
+            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-card/50 hover:border-primary/30 hover:bg-card transition-all duration-500 flex flex-col"
           >
             <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-8 group-hover:bg-primary/20 transition-colors duration-500">
-              <Heart className="w-5 h-5 text-primary" />
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors duration-500">
+              <Heart className="w-4 h-4 text-primary" />
             </div>
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
@@ -100,12 +100,12 @@ const Index = () => {
           {/* Unternehmen */}
           <Link
             to="/unternehmen"
-            className="group relative p-10 md:p-12 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col"
+            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col"
           >
             <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-[hsl(var(--security-accent))]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-            <div className="w-12 h-12 rounded-full bg-[hsl(var(--security-accent))]/10 flex items-center justify-center mb-8 group-hover:bg-[hsl(var(--security-accent))]/20 transition-colors duration-500">
-              <Shield className="w-5 h-5 text-[hsl(var(--security-accent))]" />
+            <div className="w-10 h-10 rounded-full bg-[hsl(var(--security-accent))]/10 flex items-center justify-center mb-6 group-hover:bg-[hsl(var(--security-accent))]/20 transition-colors duration-500">
+              <Shield className="w-4 h-4 text-[hsl(var(--security-accent))]" />
             </div>
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
