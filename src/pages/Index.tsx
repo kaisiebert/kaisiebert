@@ -100,12 +100,12 @@ const Index = () => {
           {/* Unternehmen */}
           <Link
             to="/unternehmen"
-            className="group relative p-10 md:p-12 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col"
+            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col"
           >
             <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-[hsl(var(--security-accent))]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-            <div className="w-12 h-12 rounded-full bg-[hsl(var(--security-accent))]/10 flex items-center justify-center mb-8 group-hover:bg-[hsl(var(--security-accent))]/20 transition-colors duration-500">
-              <Shield className="w-5 h-5 text-[hsl(var(--security-accent))]" />
+            <div className="w-10 h-10 rounded-full bg-[hsl(var(--security-accent))]/10 flex items-center justify-center mb-6 group-hover:bg-[hsl(var(--security-accent))]/20 transition-colors duration-500">
+              <Shield className="w-4 h-4 text-[hsl(var(--security-accent))]" />
             </div>
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
