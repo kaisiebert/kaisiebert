@@ -239,4 +239,8 @@
   .animation-delay-600 {
     animation-delay: 600ms;
   }
+  
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
 }

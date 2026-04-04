@@ -56,11 +56,11 @@ const Index = () => {
         </div>
 
         {/* Two Paths */}
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-5xl w-full opacity-0 animate-fade-in-up animation-delay-600">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-5xl w-full">
           {/* Privatpersonen */}
           <Link
             to="/beratung"
-            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-card/50 hover:border-primary/30 hover:bg-card transition-all duration-500 flex flex-col"
+            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-card/50 hover:border-primary/30 hover:bg-card transition-all duration-500 flex flex-col opacity-0 animate-fade-in-up animation-delay-600"
           >
             <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
@@ -86,7 +86,7 @@ const Index = () => {
           {/* Unternehmen */}
           <Link
             to="/unternehmen"
-            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col"
+            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-[hsl(var(--deep-charcoal))]/5 hover:border-[hsl(var(--security-accent))]/30 hover:bg-[hsl(var(--deep-charcoal))]/10 transition-all duration-500 flex flex-col opacity-0 animate-fade-in-up animation-delay-800"
           >
             <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-[hsl(var(--security-accent))]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
