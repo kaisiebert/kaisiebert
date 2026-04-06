@@ -98,7 +98,7 @@ const Index = () => {
               Sicherheit durch Bewusstsein.
             </h2>
 
-            <p className="text-muted-foreground leading-relaxed mb-8 flex-grow">
+            <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Schulungen, Beratung und Audits zur Prävention von Bedrohungen und
               zum Aufbau einer belastbaren Sicherheitskultur.
             </p>
@@ -126,7 +126,7 @@ const Index = () => {
               Luftsicherheit. Professionell.
             </h2>
 
-            <p className="text-muted-foreground leading-relaxed mb-8 flex-grow">
+            <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Aviation-Security Consulting & Training – Beratung, Schulung und Auditierung im Bereich der Luftsicherheit.
             </p>
 
