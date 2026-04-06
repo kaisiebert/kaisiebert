@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Shield, Heart } from "lucide-react";
+import { ArrowRight, Shield, Heart, Plane } from "lucide-react";
 import useSeo from "@/hooks/use-seo";
 import Footer from "@/components/Footer";
 import ensoLogo from "@/assets/enso-logo.webp";
