@@ -55,8 +55,8 @@ const Index = () => {
           <div className="h-px w-20 bg-primary/30 mx-auto mt-6 opacity-0 animate-fade-in-up animation-delay-400" />
         </div>
 
-        {/* Two Paths */}
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-5xl w-full">
+        {/* Three Paths */}
+        <div className="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl w-full">
           {/* Privatpersonen */}
           <Link
             to="/beratung"
@@ -108,6 +108,33 @@ const Index = () => {
               <ArrowRight className="w-4 h-4" />
             </div>
           </Link>
+
+          {/* Luftsicherheit */}
+          <a
+            href="https://aviation-security.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative p-8 md:p-10 rounded-2xl border border-border/50 bg-ascat-blue/5 hover:border-ascat-blue/30 hover:bg-ascat-blue/10 transition-all duration-500 flex flex-col opacity-0 animate-fade-in-up animation-delay-1000"
+          >
+            <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-ascat-blue/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+            <div className="w-10 h-10 rounded-full bg-ascat-blue/10 flex items-center justify-center mb-6 group-hover:bg-ascat-blue/20 transition-colors duration-500">
+              <Plane className="w-4 h-4 text-ascat-blue" />
+            </div>
+
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
+              Luftsicherheit. Professionell.
+            </h2>
+
+            <p className="text-muted-foreground leading-relaxed mb-8 flex-grow">
+              Aviation-Security Consulting & Training – Beratung, Schulung und Auditierung im Bereich der Luftsicherheit.
+            </p>
+
+            <div className="flex items-center gap-2 text-ascat-blue font-medium text-sm group-hover:gap-3 transition-all duration-300">
+              Zur Luftsicherheit
+              <ArrowRight className="w-4 h-4" />
+            </div>
+          </a>
         </div>
       </main>
 
