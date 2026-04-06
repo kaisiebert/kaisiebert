@@ -33,7 +33,8 @@ const Index = () => {
         <div className="flex items-center gap-3">
           <img
             src={ensoLogo}
-            alt="Kai Siebert Logo"
+            alt=""
+            aria-hidden="true"
             className="h-10 w-10 object-contain"
           />
           <span className="font-serif text-xl tracking-wide text-foreground">
@@ -43,7 +44,7 @@ const Index = () => {
       </header>
 
       {/* Hero Split Section */}
-      <main className="flex-grow flex flex-col items-center justify-center px-6 md:px-12 py-8 md:py-0">
+      <main id="main-content" className="flex-grow flex flex-col items-center justify-center px-6 md:px-12 py-8 md:py-0">
         {/* Central Headline */}
         <div className="text-center mb-10 md:mb-12 max-w-3xl mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl text-foreground mb-4 leading-tight opacity-0 animate-fade-in-up">

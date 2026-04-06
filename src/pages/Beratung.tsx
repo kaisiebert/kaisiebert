@@ -35,7 +35,7 @@ const Beratung = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header variant="beratung" />
-      <main>
+      <main id="main-content">
         <Hero />
         <About />
         <Themes />
