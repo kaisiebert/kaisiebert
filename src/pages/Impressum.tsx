@@ -65,6 +65,25 @@ const Impressum = () => {
 
           <section>
             <h2 className="font-serif text-xl text-foreground mb-4">
+              Berufsrechtliche Angaben
+            </h2>
+            <div className="space-y-1">
+              <p>
+                Erlaubnis zur berufsmäßigen Ausübung der Heilkunde ohne Bestallung
+                (Psychotherapie), erteilt durch das Gesundheitsamt der Stadt Nürnberg.
+              </p>
+              <p>Gesetzliche Berufsbezeichnung: Heilpraktiker (Psychotherapie)</p>
+              <p>Zuständige Aufsichtsbehörde: Gesundheitsamt der Stadt Nürnberg</p>
+              <p>
+                Es gelten die Regelungen des Heilpraktikergesetzes (HeilPrG) sowie
+                die erste Durchführungsverordnung zum Heilpraktikergesetz
+                (1.&nbsp;DVO-HeilPrG).
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="font-serif text-xl text-foreground mb-4">
               Umsatzsteuer-ID
             </h2>
             <p>
@@ -82,9 +101,44 @@ const Impressum = () => {
 
           <section>
             <h2 className="font-serif text-xl text-foreground mb-4">
-              Vertreten durch
+              EU-Streitschlichtung
             </h2>
-            <p>Kai Siebert</p>
+            <p className="mb-4">
+              Die Europäische Kommission stellt eine Plattform zur
+              Online-Streitbeilegung (OS) bereit:{" "}
+              <a
+                href="https://ec.europa.eu/consumers/odr/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                https://ec.europa.eu/consumers/odr/
+              </a>
+            </p>
+            <p>
+              Wir sind nicht bereit oder verpflichtet, an
+              Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+              teilzunehmen.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="font-serif text-xl text-foreground mb-4">
+              Haftung für Links
+            </h2>
+            <p>
+              Unser Angebot enthält Links zu externen Websites Dritter, auf deren
+              Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
+              fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der
+              verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der
+              Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der
+              Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige
+              Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine
+              permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne
+              konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei
+              Bekanntwerden von Rechtsverletzungen werden wir derartige Links
+              umgehend entfernen.
+            </p>
           </section>
         </div>
 
