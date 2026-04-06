@@ -8,7 +8,7 @@ const Impressum = () => {
   });
 
   return (
-    <main className="min-h-screen bg-background pt-24 pb-16">
+    <main id="main-content" className="min-h-screen bg-background pt-24 pb-16">
       <div className="container-narrow">
         <h1 className="font-serif text-4xl md:text-5xl text-foreground mb-12">
           Impressum

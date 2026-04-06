@@ -71,7 +71,7 @@ const Unternehmen = () => {
     <div className="min-h-screen bg-security-bg text-security-fg">
       <Header variant="unternehmen" />
 
-      <main>
+      <main id="main-content">
         {/* HERO */}
         <section className="min-h-[80vh] flex items-center justify-center relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-security-bg via-security-bg to-security-card" />

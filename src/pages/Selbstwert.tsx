@@ -33,7 +33,7 @@ const Selbstwert = () => {
     <div className="min-h-screen bg-background">
       <Header variant="beratung" />
       <SelbstwertNav />
-      <main>
+      <main id="main-content">
         {/* HERO — Sofortige emotionale Resonanz */}
         <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
            <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
