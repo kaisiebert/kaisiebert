@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
 
       {/* Floating Enso background */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]" aria-hidden="true">
         <img src={ensoLogo} alt="" className="w-[600px] h-[600px] object-contain animate-float" />
       </div>
 
@@ -18,7 +18,8 @@ const Hero = () => {
         <div className="flex justify-center mb-12">
           <img 
             src={ensoLogo} 
-            alt="Enso Logo" 
+            alt="" 
+            aria-hidden="true"
             className="w-28 h-28 md:w-36 md:h-36 object-contain opacity-90 animate-fade-in-up"
           />
         </div>
@@ -39,7 +40,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2">
+      <div className="absolute bottom-12 left-1/2 -translate-x-1/2" aria-hidden="true">
         <div className="w-px h-12 bg-gradient-to-b from-transparent via-primary/30 to-transparent animate-breathe" />
       </div>
     </section>

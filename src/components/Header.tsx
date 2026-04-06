@@ -106,6 +106,7 @@ const Header = ({ variant = "beratung" }: HeaderProps) => {
     return (
       <button
         key={item.id}
+        type="button"
         onClick={() => scrollToSection(item.id!)}
         className={`${baseClass} ${colorClass}`}
       >
@@ -126,19 +127,27 @@ const Header = ({ variant = "beratung" }: HeaderProps) => {
 
   return (
     <>
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md focus:outline-none"
+      >
+        Zum Inhalt springen
+      </a>
+
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${bgClasses}`}
       >
-        <nav className="container-wide py-5 flex items-center justify-between">
+        <nav className="container-wide py-5 flex items-center justify-between" aria-label="Hauptnavigation">
           <Link
             to="/"
-            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary rounded-sm"
             onClick={() => setMobileOpen(false)}
           >
             <img
               src={ensoLogo}
-              alt="Kai Siebert Logo"
+              alt=""
               className="h-10 w-10 object-contain"
+              aria-hidden="true"
             />
             <span
               className={`font-serif text-xl tracking-wide ${
@@ -154,6 +163,7 @@ const Header = ({ variant = "beratung" }: HeaderProps) => {
           </div>
 
           <button
+            type="button"
             className={`md:hidden p-2 transition-colors ${
               isUnternehmen
                 ? "text-security-fg hover:text-security-accent"
@@ -161,6 +171,7 @@ const Header = ({ variant = "beratung" }: HeaderProps) => {
             }`}
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label={mobileOpen ? "Menü schließen" : "Menü öffnen"}
+            aria-expanded={mobileOpen}
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -170,10 +181,13 @@ const Header = ({ variant = "beratung" }: HeaderProps) => {
       {mobileOpen && (
         <div
           className={`md:hidden fixed inset-0 top-[73px] ${overlayBg} z-[100]`}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Navigationsmenü"
         >
-          <div className="flex flex-col items-center gap-2 pt-16 px-8">
+          <nav aria-label="Mobile Navigation" className="flex flex-col items-center gap-2 pt-16 px-8">
             {navItems.map((item) => renderNavItem(item, true))}
-          </div>
+          </nav>
         </div>
       )}
     </>
