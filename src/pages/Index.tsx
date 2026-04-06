@@ -72,7 +72,7 @@ const Index = () => {
               Klarheit. Stabilität. Entwicklung.
             </h2>
 
-            <p className="text-muted-foreground leading-relaxed mb-8 flex-grow">
+            <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Psychologische Beratung, Coaching und Counseling für Menschen, die
               sich selbst besser verstehen und gezielt weiterentwickeln wollen.
             </p>
