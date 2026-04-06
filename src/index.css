@@ -16,8 +16,8 @@
     --popover: 40 20% 98%;
     --popover-foreground: 210 12% 8%;
     
-    /* CI Logo Green */
-    --primary: 90 49% 48%;
+    /* CI Logo Green – darkened for WCAG AA contrast (4.5:1) */
+    --primary: 90 52% 32%;
     --primary-foreground: 0 0% 100%;
     
     /* Warm sage */
