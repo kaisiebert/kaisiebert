@@ -254,3 +254,15 @@
     animation-delay: 1000ms;
   }
 }
+
+/* Accessibility: visible focus indicators */
+*:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Remove focus outline for mouse users */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
