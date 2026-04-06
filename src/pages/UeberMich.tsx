@@ -169,7 +169,7 @@ const UeberMich = () => {
     <div className="min-h-screen bg-background">
       <Header variant="split" />
 
-      <main>
+      <main id="main-content">
         {/* Hero */}
         <section className="pt-32 pb-20 md:pt-40 md:pb-28">
           <div className="container-narrow">
