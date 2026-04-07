@@ -23,6 +23,18 @@ const Selbstwert = () => {
     title: "Selbstwert stärken · Psychologische Beratung",
     description: "Selbstwert lässt sich nicht aufbauen – er war immer da. Psychologische Beratung und Coaching für Menschen, die aufhören wollen zu funktionieren und anfangen, sich zu spüren.",
     canonical: "https://kaisiebert.de/selbstwert",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Selbstwert stärken – Psychologische Beratung",
+      description:
+        "Selbstwert lässt sich nicht aufbauen – er war immer da. Psychologische Beratung und Coaching für persönliche Entwicklung.",
+      url: "https://kaisiebert.de/selbstwert",
+      author: {
+        "@type": "Person",
+        name: "Kai Siebert",
+      },
+    },
   });
 
   useEffect(() => {

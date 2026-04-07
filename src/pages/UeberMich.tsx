@@ -16,6 +16,20 @@ const UeberMich = () => {
     description:
       "Psychologe, Coach und Sicherheitsexperte. Ich verbinde psychologisches Verständnis mit praktischer Gefahrenabwehr – für Privatpersonen und Unternehmen.",
     canonical: "https://kaisiebert.de/ueber-mich",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Kai Siebert",
+      jobTitle: "Psychologe, Coach & Sicherheitsberater",
+      url: "https://kaisiebert.de/ueber-mich",
+      description:
+        "Psychologe, Coach und Sicherheitsexperte mit über 15 Jahren Erfahrung in sicherheitskritischen Kontexten.",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Nürnberg",
+        addressCountry: "DE",
+      },
+    },
   });
 
   useEffect(() => {
