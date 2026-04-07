@@ -13,6 +13,7 @@ const UeberMich = lazy(() => import("./pages/UeberMich"));
 const Bewusstsein = lazy(() => import("./pages/Bewusstsein"));
 const Selbstwert = lazy(() => import("./pages/Selbstwert"));
 const Seminare = lazy(() => import("./pages/Seminare"));
+const Notfallschutz = lazy(() => import("./pages/Notfallschutz"));
 const Impressum = lazy(() => import("./pages/Impressum"));
 const Datenschutz = lazy(() => import("./pages/Datenschutz"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/bewusstsein" element={<Bewusstsein />} />
             <Route path="/selbstwert" element={<Selbstwert />} />
             <Route path="/seminare" element={<Seminare />} />
+            <Route path="/notfallschutz" element={<Notfallschutz />} />
             <Route path="/impressum" element={<Impressum />} />
             <Route path="/datenschutz" element={<Datenschutz />} />
             <Route path="*" element={<NotFound />} />
