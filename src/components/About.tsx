@@ -1,4 +1,4 @@
-import kaiSiebert from "@/assets/kai-siebert.jpg";
+import kaiSiebert from "@/assets/kai-siebert.webp";
 
 const About = () => {
   return (
@@ -12,6 +12,10 @@ const About = () => {
               <img 
                 src={kaiSiebert} 
                 alt="Kai Siebert" 
+                width={224}
+                height={224}
+                loading="lazy"
+                decoding="async"
                 className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-top border-2 border-primary/10 shadow-lg"
               />
             </div>

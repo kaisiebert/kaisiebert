@@ -9,7 +9,7 @@ const AviationHint = () => {
 
           <div className="flex flex-col md:flex-row items-center gap-8 max-w-6xl mx-auto">
             <div className="flex-shrink-0">
-              <img src={ascatLogo} alt="ASCAT Logo" className="w-14 h-14 object-contain" />
+              <img src={ascatLogo} alt="ASCAT Logo" width={56} height={56} loading="lazy" decoding="async" className="w-14 h-14 object-contain" />
             </div>
 
             <div className="flex-grow text-center md:text-left">
