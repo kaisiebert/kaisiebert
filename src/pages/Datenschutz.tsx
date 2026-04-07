@@ -136,10 +136,32 @@ const Datenschutz = () => {
 
           <section>
             <h2 className="font-serif text-xl text-foreground mb-4">
-              5. Cookies
+              5. Cookies und Webanalyse
             </h2>
+            <h3 className="font-medium text-foreground mb-2">Technisch notwendige Cookies</h3>
+            <p className="mb-4">
+              Diese Website verwendet technisch notwendige Cookies, die für den Betrieb der Website erforderlich sind. Diese werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert.
+            </p>
+            <h3 className="font-medium text-foreground mb-2">Google Analytics</h3>
+            <p className="mb-4">
+              Diese Website nutzt Google Analytics, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland („Google"). Google Analytics verwendet Cookies, die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+            </p>
+            <p className="mb-4">
+              Wir haben die IP-Anonymisierung aktiviert. Dadurch wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum vor der Übermittlung in die USA gekürzt.
+            </p>
+            <p className="mb-4">
+              <strong className="text-foreground">Einwilligung:</strong> Google Analytics wird nur aktiviert, wenn Sie über unser Cookie-Banner Ihre ausdrückliche Einwilligung erteilt haben (Art. 6 Abs. 1 lit. a DSGVO). Sie können Ihre Einwilligung jederzeit widerrufen, indem Sie die Cookies in Ihrem Browser löschen und die Seite neu laden.
+            </p>
             <p>
-              Diese Website verwendet keine Cookies, die einer Einwilligung bedürfen. Es werden lediglich technisch notwendige Cookies eingesetzt, die für den Betrieb der Website erforderlich sind. Diese werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung technisch notwendiger Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste.
+              Weitere Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der{" "}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Datenschutzerklärung von Google
+              </a>.
             </p>
           </section>
 
