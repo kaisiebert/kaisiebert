@@ -33,6 +33,7 @@ const App = () => (
             <Route path="/ueber-mich" element={<UeberMich />} />
             <Route path="/bewusstsein" element={<Bewusstsein />} />
             <Route path="/selbstwert" element={<Selbstwert />} />
+            <Route path="/seminare" element={<Seminare />} />
             <Route path="/impressum" element={<Impressum />} />
             <Route path="/datenschutz" element={<Datenschutz />} />
             <Route path="*" element={<NotFound />} />
