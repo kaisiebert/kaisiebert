@@ -74,7 +74,7 @@ const Index = () => {
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2">
               Für Sie persönlich.
             </h2>
-            <p className="text-sm text-primary font-medium mb-4">Beratung & Coaching für Privatpersonen</p>
+            <p className="text-sm text-primary font-medium mb-4">Beratung & Coaching</p>
 
             <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Psychologische Beratung, Coaching und Counseling für Menschen, die
