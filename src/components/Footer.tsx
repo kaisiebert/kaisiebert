@@ -50,6 +50,16 @@ const Footer = ({ variant = "default" }: FooterProps) => {
             >
               Datenschutz
             </Link>
+            <button
+              type="button"
+              onClick={() => {
+                localStorage.removeItem("cookie-consent");
+                window.location.reload();
+              }}
+              className={`${hoverClass} transition-colors cursor-pointer bg-transparent border-none p-0 text-sm font-inherit`}
+            >
+              Cookie-Einstellungen
+            </button>
           </div>
 
           <p className="text-xs">
