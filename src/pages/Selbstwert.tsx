@@ -50,7 +50,7 @@ const Selbstwert = () => {
         <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
            <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 via-background to-background" />
            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.15]">
-             <img src={ensoLogo} alt="" className="w-[600px] h-[600px] object-contain animate-float" />
+             <img src={ensoLogo} alt="" width={600} height={600} loading="lazy" decoding="async" className="w-[600px] h-[600px] object-contain animate-float" />
            </div>
           <div className="container-narrow relative z-10 text-center">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 leading-tight opacity-0 animate-fade-in-up">
