@@ -147,6 +147,8 @@ const Header = ({ variant = "beratung" }: HeaderProps) => {
             <img
               src={ensoLogo}
               alt=""
+              width={40}
+              height={40}
               className="h-10 w-10 object-contain"
               aria-hidden="true"
             />

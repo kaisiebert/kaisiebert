@@ -11,7 +11,7 @@ const Hero = () => {
 
       {/* Floating Enso background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.06]" aria-hidden="true">
-        <img src={ensoLogo} alt="" className="w-[600px] h-[600px] object-contain animate-float" />
+        <img src={ensoLogo} alt="" width={600} height={600} loading="lazy" decoding="async" className="w-[600px] h-[600px] object-contain animate-float" />
       </div>
 
       <div className="container-narrow relative z-10 text-center">
@@ -20,6 +20,8 @@ const Hero = () => {
             src={ensoLogo} 
             alt="" 
             aria-hidden="true"
+            width={144}
+            height={144}
             className="w-28 h-28 md:w-36 md:h-36 object-contain opacity-90 animate-fade-in-up"
           />
         </div>

@@ -35,6 +35,8 @@ const Index = () => {
             src={ensoLogo}
             alt=""
             aria-hidden="true"
+            width={40}
+            height={40}
             className="h-10 w-10 object-contain"
           />
           <span className="font-serif text-xl tracking-wide text-foreground">

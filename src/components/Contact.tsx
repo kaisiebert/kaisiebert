@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="kontakt" className="section-spacing">
       <div className="container-narrow text-center">
         <div className="flex justify-center mb-10">
-          <img src={ensoLogo} alt="" aria-hidden="true" className="w-16 h-16 object-contain opacity-50" />
+          <img src={ensoLogo} alt="" aria-hidden="true" width={64} height={64} loading="lazy" decoding="async" className="w-16 h-16 object-contain opacity-50" />
         </div>
 
         <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6">

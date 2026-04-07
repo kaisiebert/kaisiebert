@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import useSeo from "@/hooks/use-seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import kaiSiebert from "@/assets/kai-siebert.jpg";
+import kaiSiebert from "@/assets/kai-siebert.webp";
 import ensoLogo from "@/assets/enso-logo.webp";
 
 const UeberMich = () => {
@@ -52,6 +52,10 @@ const UeberMich = () => {
                     <img
                       src={kaiSiebert}
                       alt="Kai Siebert"
+                      width={224}
+                      height={224}
+                      loading="lazy"
+                      decoding="async"
                       className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-top border-2 border-security-accent/10 shadow-lg"
                     />
                   </div>
@@ -194,6 +198,10 @@ const UeberMich = () => {
                   <img
                     src={kaiSiebert}
                     alt="Kai Siebert"
+                    width={224}
+                    height={224}
+                    loading="lazy"
+                    decoding="async"
                     className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover object-top border-2 border-primary/10 shadow-lg"
                   />
                 </div>
