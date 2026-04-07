@@ -9,7 +9,8 @@ const seminare = [
   {
     icon: Siren,
     title: "Not- & Katastrophenschutz",
-    subtitle: "Wenn plötzlich alles ausfällt – bist du vorbereitet?",
+    subtitle: "Wenn plötzlich alles ausfällt – ist Ihr Unternehmen handlungsfähig?",
+    link: "/notfallschutz",
     description:
       "Stromausfall, kein Wasser, kein Internet – Krisen entstehen oft schneller, als man denkt. In dieser Tagesschulung lernen die Teilnehmer, Gefahren frühzeitig zu erkennen, Warnmeldungen richtig einzuordnen und im Ernstfall sicher zu handeln.",
     topics: [
@@ -181,6 +182,15 @@ const Seminare = () => {
                       <p className="mt-6 text-sm text-security-accent font-medium tracking-wide">
                         {seminar.highlight}
                       </p>
+                      {"link" in seminar && seminar.link && (
+                        <Link
+                          to={seminar.link}
+                          className="inline-flex items-center gap-2 mt-4 text-sm text-security-accent hover:gap-3 transition-all duration-300"
+                        >
+                          Mehr erfahren
+                          <ArrowRight className="w-4 h-4" />
+                        </Link>
+                      )}
                     </div>
 
                     {/* Right: Topics */}
