@@ -187,6 +187,35 @@ const Unternehmen = () => {
           </div>
         </section>
 
+        {/* SEMINARE TEASER */}
+        <section className="py-20 md:py-24">
+          <div className="container-wide">
+            <div className="rounded-2xl border border-security-border bg-security-card/50 p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 md:gap-12">
+              <div className="flex-1">
+                <p className="text-xs uppercase tracking-[0.3em] text-security-accent mb-3">
+                  Seminare & Schulungen
+                </p>
+                <h2 className="font-serif text-2xl md:text-3xl text-security-fg mb-4">
+                  Wissen, das schützt.
+                </h2>
+                <p className="text-security-muted text-justify-clean">
+                  Praxisnahe Schulungen zu Not- & Katastrophenschutz,
+                  Sicherheitsbewusstsein, hybriden Bedrohungslagen und
+                  Krisenkommunikation – individuell auf Ihre Organisation
+                  zugeschnitten.
+                </p>
+              </div>
+              <Link
+                to="/seminare"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-security-accent text-security-bg font-medium tracking-wide rounded-lg hover:bg-security-accent/90 transition-all duration-300 shrink-0"
+              >
+                Seminare entdecken
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA / KONTAKT */}
         <section id="kontakt-unternehmen" className="py-24 md:py-32">
           <div className="container-narrow text-center">
