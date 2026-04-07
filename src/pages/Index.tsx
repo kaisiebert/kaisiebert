@@ -74,7 +74,7 @@ const Index = () => {
             </div>
 
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2 md:min-h-[4.5rem] flex items-end">
-              Für Sie persönlich.
+              Für Sie.<br />Persönlich.
             </h2>
             <p className="text-sm text-primary font-medium mb-4 md:min-h-[1.25rem]">Beratung & Coaching</p>
 
