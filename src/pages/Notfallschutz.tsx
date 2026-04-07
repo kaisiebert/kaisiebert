@@ -697,7 +697,7 @@ const Notfallschutz = () => {
                 info@kaisiebert.de
               </a>
               <a
-                href="tel:+4917551813"
+                href="tel:+491755181313"
                 className="block text-lg text-security-fg hover:text-security-accent transition-colors"
               >
                 0175 518 13 13
