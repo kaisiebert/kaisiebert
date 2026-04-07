@@ -452,7 +452,7 @@ const Notfallschutz = () => {
                 <ul className="space-y-3">
                   {[
                     "Rein theoretisches Interesse ohne Umsetzungsabsicht",
-                    "„Wird schon nicht passieren"-Haltung",
+                    "\u201EWird schon nicht passieren\u201C-Haltung",
                     "Organisationen, die eine Pflichtveranstaltung ohne Tiefgang suchen",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm">
