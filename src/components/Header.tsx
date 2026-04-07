@@ -18,6 +18,7 @@ const beratungNav: NavItem[] = [
 
 const unternehmenNav: NavItem[] = [
   { href: "/unternehmen", label: "Leistungen" },
+  { href: "/seminare", label: "Seminare" },
   { href: "/bewusstsein", label: "Bewusstsein" },
   { href: "/ueber-mich?context=unternehmen", label: "Über mich" },
   { id: "kontakt-unternehmen", label: "Kontakt" },

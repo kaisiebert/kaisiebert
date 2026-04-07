@@ -12,6 +12,7 @@ const Unternehmen = lazy(() => import("./pages/Unternehmen"));
 const UeberMich = lazy(() => import("./pages/UeberMich"));
 const Bewusstsein = lazy(() => import("./pages/Bewusstsein"));
 const Selbstwert = lazy(() => import("./pages/Selbstwert"));
+const Seminare = lazy(() => import("./pages/Seminare"));
 const Impressum = lazy(() => import("./pages/Impressum"));
 const Datenschutz = lazy(() => import("./pages/Datenschutz"));
 const NotFound = lazy(() => import("./pages/NotFound"));
