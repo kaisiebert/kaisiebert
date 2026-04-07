@@ -31,7 +31,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kaisiebert.de/selbstwert</loc>
+    <loc>https://kaisiebert.de/notfallschutz</loc>
+    <lastmod>2025-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <lastmod>2025-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
