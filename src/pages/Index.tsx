@@ -71,10 +71,10 @@ const Index = () => {
               <Heart className="w-4 h-4 text-primary" />
             </div>
 
-            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2">
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2 md:min-h-[4.5rem] flex items-end">
               Für Sie persönlich.
             </h2>
-            <p className="text-sm text-primary font-medium mb-4">Beratung & Coaching</p>
+            <p className="text-sm text-primary font-medium mb-4 md:min-h-[1.25rem]">Beratung & Coaching</p>
 
             <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Psychologische Beratung, Coaching und Counseling für Menschen, die
@@ -98,10 +98,10 @@ const Index = () => {
               <Shield className="w-4 h-4 text-[hsl(var(--security-accent))]" />
             </div>
 
-            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2">
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2 md:min-h-[4.5rem] flex items-end">
               Für Unternehmen, Behörden & Organisationen.
             </h2>
-            <p className="text-sm text-[hsl(var(--security-accent))] font-medium mb-4">Sicherheitsberatung & Prävention</p>
+            <p className="text-sm text-[hsl(var(--security-accent))] font-medium mb-4 md:min-h-[1.25rem]">Sicherheitsberatung & Prävention</p>
 
             <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Schulungen, Beratung und Audits zur Prävention von Bedrohungen und
@@ -127,9 +127,10 @@ const Index = () => {
               <Plane className="w-4 h-4 text-ascat-blue" />
             </div>
 
-            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2 md:min-h-[4.5rem] flex items-end">
               Luftsicherheit. Professionell.
             </h2>
+            <p className="text-sm text-ascat-blue font-medium mb-4 md:min-h-[1.25rem]">Consulting & Training</p>
 
             <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Aviation-Security Consulting & Training – Beratung, Schulung und Auditierung im Bereich der Luftsicherheit.
