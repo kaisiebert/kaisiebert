@@ -43,7 +43,7 @@ const Bewusstsein = () => {
               <span className="text-security-accent">von allem.</span>
             </h1>
 
-            <p className="text-lg text-security-muted max-w-2xl mx-auto leading-relaxed text-justify-clean">
+            <p className="text-lg text-security-muted max-w-2xl mx-auto leading-relaxed text-center">
               Ob persönliche Entwicklung oder organisationale Sicherheit – alles
               beginnt mit der Fähigkeit, wahrzunehmen, was wirklich geschieht.
             </p>

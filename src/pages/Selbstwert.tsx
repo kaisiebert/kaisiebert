@@ -59,14 +59,14 @@ const Selbstwert = () => {
               <span className="text-brand-green">Du musst aufhören, gegen dich zu arbeiten.</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-text-body mb-6 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-200 text-justify-clean">
+            <p className="text-lg md:text-xl text-text-body mb-6 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-200 text-center">
               Selbstwert lässt sich nicht aufbauen wie eine Fähigkeit.
               Er war immer da – verdeckt von Bewertung, Druck und dem Versuch, jemand zu sein.
             </p>
 
             <div className="h-px w-16 bg-brand-green/30 mx-auto my-10 opacity-0 animate-fade-in-up animation-delay-400" />
 
-            <p className="text-text-body leading-relaxed max-w-lg mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400 text-justify-clean">
+            <p className="text-text-body leading-relaxed max-w-lg mx-auto mb-12 opacity-0 animate-fade-in-up animation-delay-400 text-center">
               Psychologische Beratung und Coaching für Menschen,
               die aufhören wollen zu funktionieren – und anfangen wollen, sich zu spüren.
             </p>
