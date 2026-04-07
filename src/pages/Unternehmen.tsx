@@ -8,10 +8,10 @@ import Footer from "@/components/Footer";
 const services = [
   {
     icon: Shield,
-    title: "Psychologische Sensibilisierung & Gefahrenbewusstsein",
+    title: "Hybride Bedrohungslagen erkennen & verstehen",
     description:
-      "Fundierte Beratung zur Erkennung und Prävention hybrider Bedrohungen – von Extremismus und Radikalisierung über Rassismus bis hin zu organisierter Gewalt. Psychologisch fundiert, praxisnah und auf Ihr Umfeld abgestimmt.",
-    keywords: ["Bedrohungserkennung", "Radikalisierungsprävention", "Hybride Gefahren"],
+      "Fundierte Beratung zur Erkennung und Prävention komplexer Bedrohungsszenarien – von Desinformation und Social Engineering über Extremismus und Radikalisierung bis hin zu Cyberbedrohungen, Innentäterrisiken und organisierter Gewalt. Psychologisch fundiert, praxisnah und auf Ihr Umfeld abgestimmt.",
+    keywords: ["Hybride Bedrohungen", "Desinformation", "Social Engineering"],
   },
   {
     icon: Eye,
