@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
           <div>
             <a
-              href="tel:+4917551813"
+              href="tel:+491755181313"
               className="block text-lg text-foreground hover:text-primary transition-colors"
             >
               0175 518 13 13

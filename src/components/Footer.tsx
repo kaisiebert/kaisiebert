@@ -30,7 +30,7 @@ const Footer = ({ variant = "default" }: FooterProps) => {
             </a>
             <span>·</span>
             <a
-              href="tel:+4917551813"
+              href="tel:+491755181313"
               className={`${hoverClass} transition-colors`}
             >
               0175 518 13 13
