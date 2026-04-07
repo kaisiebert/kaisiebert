@@ -8,6 +8,7 @@ const NotFound = () => {
   useSeo({
     title: "Seite nicht gefunden",
     description: "Die angeforderte Seite konnte nicht gefunden werden.",
+    noindex: true,
   });
 
   useEffect(() => {

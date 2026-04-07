@@ -8,7 +8,7 @@ const Index = () => {
   useSeo({
     title: "Kai Siebert · Psychologische Kompetenz trifft Sicherheitsrealität",
     description:
-      "Psychologische Beratung & Coaching für Privatpersonen. Sicherheitsberatung, Terrorprävention & Schulungen für Unternehmen. Zwei Welten – eine Kompetenz.",
+      "Psychologische Beratung & Coaching für Privatpersonen. Sicherheitsberatung, Gefahrenprävention & Awareness-Training für Unternehmen. Zwei Welten – eine Kompetenz.",
     canonical: "https://kaisiebert.de/",
     jsonLd: {
       "@context": "https://schema.org",

@@ -4,10 +4,11 @@ interface SeoConfig {
   title: string;
   description: string;
   canonical?: string;
+  noindex?: boolean;
   jsonLd?: Record<string, unknown>;
 }
 
-const useSeo = ({ title, description, canonical, jsonLd }: SeoConfig) => {
+const useSeo = ({ title, description, canonical, noindex, jsonLd }: SeoConfig) => {
   useEffect(() => {
     const fullTitle = title.includes("Kai Siebert")
       ? title
@@ -39,10 +40,16 @@ const useSeo = ({ title, description, canonical, jsonLd }: SeoConfig) => {
     setMeta("twitter:description", description);
     setOg("og:title", fullTitle);
     setOg("og:description", description);
-    if (canonical) {
-      setOg("og:url", canonical);
+
+    // Handle robots noindex
+    if (noindex) {
+      setMeta("robots", "noindex, nofollow");
+    } else {
+      const robotsMeta = document.querySelector('meta[name="robots"]');
+      if (robotsMeta) robotsMeta.remove();
     }
 
+    // Handle canonical & og:url
     if (canonical) {
       let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
       if (!link) {
@@ -51,6 +58,13 @@ const useSeo = ({ title, description, canonical, jsonLd }: SeoConfig) => {
         document.head.appendChild(link);
       }
       link.setAttribute("href", canonical);
+      setOg("og:url", canonical);
+    } else {
+      // Clean up canonical from previous page
+      const link = document.querySelector('link[rel="canonical"]');
+      if (link) link.remove();
+      const ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) ogUrl.remove();
     }
 
     if (jsonLd) {
@@ -68,7 +82,7 @@ const useSeo = ({ title, description, canonical, jsonLd }: SeoConfig) => {
       const ldScript = document.querySelector('#json-ld');
       ldScript?.remove();
     };
-  }, [title, description, canonical, jsonLd]);
+  }, [title, description, canonical, noindex, jsonLd]);
 };
 
 export default useSeo;
