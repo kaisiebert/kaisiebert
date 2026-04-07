@@ -35,11 +35,11 @@ const Index = () => {
             src={ensoLogo}
             alt=""
             aria-hidden="true"
-            width={40}
-            height={40}
-            className="h-10 w-10 object-contain"
+            width={52}
+            height={52}
+            className="h-12 w-12 md:h-13 md:w-13 object-contain"
           />
-          <span className="font-serif text-xl tracking-wide text-foreground">
+          <span className="font-serif text-2xl tracking-wide text-foreground">
             Kai Siebert
           </span>
         </div>
@@ -71,9 +71,10 @@ const Index = () => {
               <Heart className="w-4 h-4 text-primary" />
             </div>
 
-            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
-              Klarheit. Stabilität. Entwicklung.
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2">
+              Für Sie persönlich.
             </h2>
+            <p className="text-sm text-primary font-medium mb-4">Beratung & Coaching für Privatpersonen</p>
 
             <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Psychologische Beratung, Coaching und Counseling für Menschen, die
@@ -97,9 +98,10 @@ const Index = () => {
               <Shield className="w-4 h-4 text-[hsl(var(--security-accent))]" />
             </div>
 
-            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-4">
-              Sicherheit durch Bewusstsein.
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-2">
+              Für Unternehmen, Behörden & Organisationen.
             </h2>
+            <p className="text-sm text-[hsl(var(--security-accent))] font-medium mb-4">Sicherheitsberatung & Prävention</p>
 
             <p className="text-muted-foreground leading-relaxed mb-8 flex-grow text-justify-clean">
               Schulungen, Beratung und Audits zur Prävention von Bedrohungen und
