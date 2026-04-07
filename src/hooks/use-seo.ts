@@ -39,6 +39,9 @@ const useSeo = ({ title, description, canonical, jsonLd }: SeoConfig) => {
     setMeta("twitter:description", description);
     setOg("og:title", fullTitle);
     setOg("og:description", description);
+    if (canonical) {
+      setOg("og:url", canonical);
+    }
 
     if (canonical) {
       let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;

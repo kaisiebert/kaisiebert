@@ -4,7 +4,7 @@ const Impressum = () => {
   useSeo({
     title: "Impressum",
     description: "Impressum von Kai Siebert – Psychologische Beratung & Coaching in Nürnberg.",
-    canonical: "https://still-presence-space.lovable.app/impressum",
+    canonical: "https://kaisiebert.de/impressum",
   });
 
   return (

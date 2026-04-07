@@ -22,7 +22,7 @@ const Selbstwert = () => {
   useSeo({
     title: "Selbstwert stärken · Psychologische Beratung",
     description: "Selbstwert lässt sich nicht aufbauen – er war immer da. Psychologische Beratung und Coaching für Menschen, die aufhören wollen zu funktionieren und anfangen, sich zu spüren.",
-    canonical: "https://still-presence-space.lovable.app/selbstwert",
+    canonical: "https://kaisiebert.de/selbstwert",
   });
 
   useEffect(() => {

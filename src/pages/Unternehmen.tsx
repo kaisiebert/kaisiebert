@@ -48,14 +48,14 @@ const Unternehmen = () => {
   useSeo({
     title: "Sicherheitsberatung für Unternehmen · Kai Siebert",
     description:
-      "Terrorprävention, Sicherheitsbewusstsein und Gefahrenabwehr für Unternehmen. Psychologisch fundierte Schulungen und Audits für eine belastbare Sicherheitskultur.",
+      "Sicherheitsberatung, Gefahrenprävention und Awareness-Training für Unternehmen. Psychologisch fundierte Schulungen und Audits für eine belastbare Sicherheitskultur.",
     canonical: "https://kaisiebert.de/unternehmen",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       name: "Kai Siebert – Sicherheitsberatung",
       description:
-        "Terrorprävention, Sicherheitsbewusstsein und Gefahrenabwehr für Unternehmen.",
+        "Sicherheitsberatung, Gefahrenprävention und Awareness-Training für Unternehmen.",
       url: "https://kaisiebert.de/unternehmen",
       telephone: "+4917551813",
       email: "info@kaisiebert.de",
