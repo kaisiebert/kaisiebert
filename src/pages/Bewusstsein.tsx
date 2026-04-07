@@ -148,7 +148,7 @@ const Bewusstsein = () => {
                 className="group p-8 rounded-xl border border-security-border hover:border-security-accent/30 transition-all duration-500"
               >
                 <h3 className="font-serif text-xl text-security-fg mb-3">
-                  Bewusstsein für sich selbst
+                  Für Sie persönlich
                 </h3>
                 <p className="text-sm text-security-muted leading-relaxed mb-4 text-justify-clean">
                   Psychologische Beratung für Menschen, die aufhören wollen zu
@@ -164,7 +164,7 @@ const Bewusstsein = () => {
                 className="group p-8 rounded-xl border border-security-border hover:border-security-accent/30 transition-all duration-500"
               >
                 <h3 className="font-serif text-xl text-security-fg mb-3">
-                  Bewusstsein für Sicherheit
+                  Für Behörden, Unternehmen & Organisationen
                 </h3>
                 <p className="text-sm text-security-muted leading-relaxed mb-4 text-justify-clean">
                   Trainings und Beratung für Organisationen, die Sicherheit
