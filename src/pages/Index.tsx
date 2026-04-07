@@ -37,6 +37,8 @@ const Index = () => {
             aria-hidden="true"
             width={52}
             height={52}
+            fetchPriority="high"
+            decoding="async"
             className="h-12 w-12 md:h-13 md:w-13 object-contain"
           />
           <span className="font-serif text-2xl tracking-wide text-foreground">
