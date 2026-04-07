@@ -147,13 +147,13 @@ const Header = ({ variant = "beratung" }: HeaderProps) => {
             <img
               src={ensoLogo}
               alt=""
-              width={40}
-              height={40}
-              className="h-10 w-10 object-contain"
+              width={52}
+              height={52}
+              className="h-12 w-12 object-contain"
               aria-hidden="true"
             />
             <span
-              className={`font-serif text-xl tracking-wide ${
+              className={`font-serif text-2xl tracking-wide ${
                 isUnternehmen ? "text-security-fg" : "text-foreground"
               }`}
             >

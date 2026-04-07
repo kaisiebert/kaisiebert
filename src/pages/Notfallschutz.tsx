@@ -101,7 +101,7 @@ const Notfallschutz = () => {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-security-muted max-w-2xl mx-auto mb-10 opacity-0 animate-fade-in-up animation-delay-400 text-justify-clean">
+            <p className="text-lg md:text-xl text-security-muted max-w-2xl mx-auto mb-10 opacity-0 animate-fade-in-up animation-delay-400 text-center">
               Stromausfall. IT-Ausfall. Kommunikationsausfall. Lieferkettenbruch.
               Krisen entstehen oft schneller, als Notfallpläne greifen.
             </p>
