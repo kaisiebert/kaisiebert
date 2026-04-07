@@ -11,6 +11,18 @@ const Bewusstsein = () => {
     description:
       "Bewusstsein ist die Grundlage für Sicherheit und persönliche Entwicklung. Kai Siebert verbindet psychologische Analyse mit Gefahrenabwehr.",
     canonical: "https://kaisiebert.de/bewusstsein",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Bewusstsein – Wahrnehmung, Risiko & menschliches Verhalten",
+      description:
+        "Bewusstsein ist die Grundlage für Sicherheit und persönliche Entwicklung.",
+      url: "https://kaisiebert.de/bewusstsein",
+      author: {
+        "@type": "Person",
+        name: "Kai Siebert",
+      },
+    },
   });
 
   useEffect(() => {
